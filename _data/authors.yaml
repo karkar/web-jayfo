@@ -57,6 +57,11 @@ id_author_baker_ryan:
     - Ryan
     - S.
 
+id_author_bales_elizabeth:
+  name:
+    - Bales
+    - Elizabeth
+
 id_author_balazinska_magdalena:
   name:
     - Balazinska
@@ -123,6 +128,11 @@ id_author_cooper_seth:
     - Cooper
     - Seth
 
+id_author_cordeiro_felicia:
+  name:
+    - Cordeiro
+    - Felicia
+
 id_author_dabbish_laura:
   name:
     - Dabbish
@@ -172,6 +182,11 @@ id_author_everitt_katherine:
     - Katherine
     - M.
 
+id_author_fiebrink_rebecca:
+  name:
+    - Fiebrink
+    - Rebecca
+
 id_author_fogarty_james:
   name:
     - Fogarty
@@ -216,6 +231,11 @@ id_author_harrison_beverly:
   name:
     - Harrison
     - Beverly
+
+id_author_hipke_kyle:
+  name:
+    - Hipke
+    - Kyle
 
 id_author_haggerty_conor:
   name:

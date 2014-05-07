@@ -2,10 +2,12 @@
 aliases_longname:
   - longname: &aaai_nectar        Proceedings of the AAAI Conference on Artificial Intelligence, Nectar Track
   - longname: &aaai_senior        Proceedings of the AAAI Conference on Artificial Intelligence, Senior Papers Track
+  - longname: &avi                Proceedings of the International Conference on Advanced Visual Interfaces
   - longname: &aied               Proceedings of the International Conference on Artificial Intelligence in Education
   - longname: &chi                Proceedings of the ACM Conference on Human Factors in Computing Systems
   - longname: &cikm               Proceedings of the ACM Conference on Information and Knowledge Management
   - longname: &cscw               Proceedings of the ACM Conference on Computer Supported Cooperative Work
+  - longname: &dis                Proceedings of the ACM Conference on Designing Interactive Systems
   - longname: &dgo                Proceedings of the Conference on Digital Government Research
   - longname: &fdg                Proceedings of the International Conference on the Foundations of Digital Games
   - longname: &gi                 Proceedings of Graphics Interface
@@ -38,6 +40,11 @@ id_conference_aied_2001:
   longname: *aied
   shortname: AIED 2001
   year: 2001
+
+id_conference_avi_2014:
+  longname: *avi
+  shortname: AVI 2014
+  year: 2014
 
 id_conference_chi_2014:
   longname: *chi
@@ -113,6 +120,11 @@ id_conference_dgo_2010:
   longname: *dgo
   shortname: dg.o 2010
   year: 2010
+
+id_conference_dis_2014:
+  longname: *dis
+  shortname: DIS 2014
+  year: 2014
 
 id_conference_fdg_2011:
   longname: *fdg
