@@ -1,0 +1,7 @@
+name:       James Fogarty
+baseurl:    /~jfogarty
+
+markdown:   redcarpet
+pygments:   true
+
+exclude:    ['env']
