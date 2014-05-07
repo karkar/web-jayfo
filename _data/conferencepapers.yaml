@@ -28,6 +28,7 @@ id_conferencepaper_avi2014:
   officialurl:
   localthumb: avi2014.png
   localpdf: avi2014.pdf
+  localvideo: avi2014.mp4
 
 id_conferencepaper_chi2014_prefab:
   pubnum: C.50
@@ -41,6 +42,7 @@ id_conferencepaper_chi2014_prefab:
   officialurl: http://dx.doi.org/10.1145/2556288.2556979
   localthumb: chi2014-prefab.png
   localpdf: chi2014-prefab.pdf
+  localvideo: chi2014-prefab.mp4
 
 id_conferencepaper_chi2014_gesturescript:
   pubnum: C.49
@@ -54,6 +56,7 @@ id_conferencepaper_chi2014_gesturescript:
   officialurl: http://dx.doi.org/10.1145/2556288.2557263
   localthumb: chi2014-gesturescript.png
   localpdf: chi2014-gesturescript.pdf
+  localvideo: chi2014-gesturescript.mp4
 
 id_conferencepaper_ubicomp2013:
   pubnum: C.48
@@ -106,6 +109,7 @@ id_conferencepaper_chi2012-prefab:
   officialurl: http://dx.doi.org/10.1145/2207676.2208734
   localthumb: chi2012-prefab.png
   localpdf: chi2012-prefab.pdf
+  localvideo: chi2012-prefab.mp4
 
 id_conferencepaper_chi2012_regroup:
   pubnum: C.44
@@ -228,6 +232,7 @@ id_conferencepaper_chi2011:
   officialurl: http://dx.doi.org/10.1145/1978942.1979086
   localthumb: chi2011.png
   localpdf: chi2011.pdf
+  localvideo: chi2011.mp4
 
 id_conferencepaper_uist2010:
   pubnum: C.36
@@ -244,6 +249,7 @@ id_conferencepaper_uist2010:
   officialurl: http://dx.doi.org/10.1145/1866029.1866038
   localthumb: uist2010.png
   localpdf: uist2010.pdf
+  localvideo: uist2010.mp4
 
 id_conferencepaper_pervasive2010:
   pubnum: C.35
@@ -285,6 +291,7 @@ id_conferencepaper_chi2010_prefab:
   officialurl: http://dx.doi.org/10.1145/1753326.1753554
   localthumb: chi2010-prefab.png
   localpdf: chi2010-prefab.pdf
+  localvideo: chi2010-prefab.mp4
 
 id_conferencepaper_chi2010_cueflik:
   pubnum: C.32
@@ -387,6 +394,7 @@ id_conferencepaper_chi2009_anglemouse:
   officialurl: http://dx.doi.org/10.1145/1518701.1518912
   localthumb: chi2009-anglemouse.png
   localpdf: chi2009-anglemouse.pdf
+  localvideo: chi2009-anglemouse.mp4
 
 id_conferencepaper_cscw2008:
   pubnum: C.25
@@ -414,6 +422,7 @@ id_conferencepaper_uist2008:
   officialurl: http://dx.doi.org/10.1145/1449715.1449756
   localthumb: uist2008.png
   localpdf: uist2008.pdf
+  localvideo: uist2008.mp4
 
 id_conferencepaper_icmi2008:
   pubnum: C.23

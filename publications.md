@@ -52,6 +52,9 @@ title: Publications
             [{{ paper.pubnum }}]
             <span class="fontsmall">
                 <br/><a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local PDF</a>
+                {% if paper.localvideo %}
+                <br/><a href="{{ site.baseurl }}/publications/{{ paper.localvideo }}">local video</a>
+                {% endif %}
                 {% if paper.officialurl %}
                 <br/><a href="{{ paper.officialurl }}">official PDF</a>
                 {% endif %}
