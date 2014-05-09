@@ -1,0 +1,194 @@
+/***********************************************/
+/* style.css                                   */
+/***********************************************/
+
+/********************************************************************************
+ * Our top of page formatting.      ********************************************************************************/
+
+#globalNav{
+	color: #cccccc;
+	margin: 0px auto 0px auto;
+	width: 45%;
+	padding: 10px 10px 10px 10px;
+	white-space: nowrap;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	/*background-color:#eeeeee;*/
+}
+
+#globalNav a {
+	font-size: 100%;
+	padding: 0px 4px 0px 4px; 
+}
+
+#mastHead {
+	margin: 0px auto 0px auto;
+	width: 45%;
+	padding: 10px 0px 10px 10px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#breadCrumbs {
+	color: #cccccc;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+	white-space: nowrap;
+}
+
+#breadCrumbs a {
+	font-size: 100%;
+	padding: 0px 4px 0px 4px; 
+}
+
+#pageTitleBanner {
+	font-size: 200%;
+	color: #006699;
+}
+
+#newsBar {
+	margin: 10px 0 0 75%;
+	padding: 0;
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+#contentArea {
+	font-size: 95%;
+	margin: 0px auto 0px auto;
+	width: 45%;
+	padding: 10px; 
+}
+
+/********************************************************************************
+ * Our general text formatting. ********************************************************************************/
+
+body{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link, a:visited, a:hover {
+	color: #006699;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+} /* overrides decoration from previous rule for hovered links */
+
+h1 {
+	font-size: 140%;
+	color: #006699;
+}
+
+h2 {
+	font-size: 125%;
+	color: #333333;
+	margin-bottom: -10px;
+}
+
+/********************************************************************************
+ * Named chunks of text.  These modifications apply to only text with the given 
+ * name, so most of them are very specific. ********************************************************************************/
+
+#businessCard {
+	float: left;
+}
+
+#businessCardName {
+	font-size:  150%;
+	margin: 0 0 .5em 0;
+}
+
+#businessCardAddress {
+	font-size: 90%;
+	margin: 0 0 1em 0;
+}
+
+#businessCardEmail {
+	font-size: 90%;
+	margin: 0 0 1em 0;
+}
+
+#businessCardOffice {
+	font-size: 90%;
+	margin: 0 0 1em 0;
+}
+
+#bioPortrait {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+#bioContent {
+	clear:left;
+	padding: 10px 0 0 0
+}
+
+#newsHeader {
+	font-size: 120%;
+	color: #333333;
+	border-top: 1px solid #cccccc;
+	padding: 10px 0 10px 10px;
+}
+
+#newsLinks ul {
+	background-color: #eeeeee;
+	list-style: none; 
+	margin: 0; 
+	padding: 0 5px 0 0;
+}
+
+#newsLinks li {
+	border-top: 1px solid #cccccc;
+	font-size: 80%;
+	margin: 0; 
+	padding: 5px 5px 5px 5px;
+}
+
+div.newsBlurb div {
+	padding-bottom: 5px;	
+}
+
+div.newsBlurbHeader {
+	font-weight: bold;
+}
+
+div.newsPaper {
+}
+
+div.newsPaperTitle {
+	display: inline;
+}
+
+#travelHeader {
+	font-size: 120%;
+	color: #333333;
+	border-top: 1px solid #cccccc;
+	padding: 10px 0 10px 10px;
+}
+
+#travelLinks ul {
+	background-color: #eeeeee;
+	list-style: none; 
+	margin: 0; 
+	padding: 0;
+}
+
+#travelLinks li {
+	border-top: 1px solid #cccccc;
+	font-size: 80%;
+	margin: 0; 
+	padding: 5px 5px 5px 5px;
+}
+
+div.travelPlace {
+	font-style: italic;
+}
+
+div.travelDate {
+	font-weight: bold;
+	padding-bottom: 5px;	
+}
