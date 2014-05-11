@@ -4,4 +4,6 @@ baseurl:    /~jfogarty
 markdown:   redcarpet
 pygments:   true
 
-exclude:    ['env']
+exclude:
+  - env27
+  - env34
