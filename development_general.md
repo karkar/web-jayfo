@@ -8,7 +8,7 @@ remaining generic. Individual projects then document their own installation and 
 
 ## <a name="Fabric"></a> Fabric
 
-We us Fabric to script deployment tasks. It requires Python 2.7, but is difficult to properly install.
+We use Fabric to script deployment tasks. It requires Python 2.7, but is difficult to properly install.
 
 First, [install Python 2.7]({{ site.baseurl }}/development_general.html#Python27), but stop prior to installing `requirements2.txt`.
 
@@ -39,9 +39,17 @@ Now we can install Jekyll:
 
     gem install jekyll
 
-By convention, we provide a `serve.bat` which will display the website on `localhost:4000`.
+By convention, we use Jekyll to ease deployment.
 
-    serve.bat
+First, [install Fabric]({{ site.baseurl }}/development_general.html#Fabric).
+
+The `serve` task will then continuously and serve the website on `localhost:4000`.
+
+    fab serve
+
+The `deploy` task will deploy the site to its production location.
+
+    fab deploy
 
 ## Python
 
