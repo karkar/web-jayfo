@@ -29,13 +29,13 @@ jfogarty [at] cs [dot] washington [dot] edu<br/>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <div class="panel-title">
-                        <div class="accordion-toggle fontsmall marginbottom" data-toggle="collapse" data-parent="#contactAccordion" href="#contactAccordionOne">
+                        <div class="accordion-toggle nowrap fontsmall marginbottom" data-toggle="collapse" data-parent="#contactAccordion" href="#contactAccordionOne">
                             Mailing Address &raquo;
                         </div>
                     </div>
                 </div>
                 <div id="contactAccordionOne" class="panel-collapse collapse">
-                    <div class="panel-body fontsmall marginleft">
+                    <div class="panel-body nowrap fontsmall marginleft">
 {% capture m %}
 Computer Science &amp; Engineering<br/>
 University of Washington<br/>
@@ -49,13 +49,13 @@ Seattle, WA 98195
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <div class="panel-title">
-                        <div class="accordion-toggle fontsmall marginbottom" data-toggle="collapse" data-parent="#contactAccordion" href="#contactAccordionTwo">
+                        <div class="accordion-toggle nowrap fontsmall marginbottom" data-toggle="collapse" data-parent="#contactAccordion" href="#contactAccordionTwo">
                             Research Coordinator &raquo;
                         </div>
                     </div>
                 </div>
                 <div id="contactAccordionTwo" class="panel-collapse collapse">
-                    <div class="panel-body fontsmall marginleft">
+                    <div class="panel-body nowrap fontsmall marginleft">
 {% capture m %}
 Melody Kadenko<br/>
 melody [at] cs [dot] washington [dot] edu
