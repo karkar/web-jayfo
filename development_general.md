@@ -55,6 +55,15 @@ The `deploy` task will deploy the site to its production location.
 
 ### <a name="MinGW"></a> MinGW
 
+<div class="alert">
+{% capture m %}
+These instructions for C compiling with Python 3.4 on Windows may be incorrect.
+
+<https://github.com/Fogies/web-jayfo/issues/18>
+{% endcapture %}
+{{ m | markdownify }}
+</div>
+
 Many Python modules require a C compiler for native code included in the module. If you have Microsoft Visual Studio, you may be able to skip this. I am using MinGW:
 
 <http://www.mingw.org/download/installer>
@@ -109,6 +118,15 @@ Now you can install your project requirements. By convention, we put these in `r
 If a project includes Fabric in its requirements, this install will fail. See [installing Fabric]({{ site.baseurl }}/development_general.html#Fabric)
 
 ### <a name="Python34"></a> Python 3.4
+
+<div class="alert">
+{% capture m %}
+These instructions for C compiling with Python 3.4 on Windows may be incorrect.
+
+<https://github.com/Fogies/web-jayfo/issues/18>
+{% endcapture %}
+{{ m | markdownify }}
+</div>
 
 We should use Python 3 whenever possible. Currently that means Python 3.4.
 
