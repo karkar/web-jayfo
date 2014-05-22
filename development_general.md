@@ -51,6 +51,28 @@ The `deploy` task will deploy the site to its production location.
 
     fab deploy
 
+## <a name="Node.js"></a> Node.js
+
+When I first tried to install Node.js, a tree fell on my house. Seriously. So first check you are not under any trees.
+
+You get node here:
+
+<http://nodejs.org/download/>
+
+You should then be sure to understand the difference between global and local modules:
+
+<http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation/>
+
+## <a name="PhoneGap"></a> PhoneGap
+
+PhoneGap enables mobile applications based on HTML, CSS, and Javascript.
+
+First, [install Node.js]({{ site.baseurl }}/development_general.html#Node.js).
+
+You then install PhoneGap using `npm`. I install it as a global module:
+
+    npm install -g phonegap
+
 ## Python
 
 ### <a name="MinGW"></a> MinGW
