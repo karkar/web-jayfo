@@ -137,7 +137,7 @@ Now you can install your project requirements. By convention, we put these in `r
     env27\Scripts\activate.bat
     pip install -r requirements2.txt
 
-If a project includes Fabric in its requirements, this install will fail. See [installing Fabric]({{ site.baseurl }}/development_general.html#Fabric)
+If a project includes Fabric in its requirements, this install will fail. See [installing Fabric]({{ site.baseurl }}/development_general.html#Fabric).
 
 ### <a name="Python34"></a> Python 3.4
 
@@ -153,6 +153,10 @@ These instructions for C compiling with Python 3.4 on Windows may be incorrect.
 We should use Python 3 whenever possible. Currently that means Python 3.4.
 
 First, [install MinGW]({{ site.baseurl }}/development_general.html#MinGW).
+
+You then need Python:
+
+<https://www.python.org/ftp/python/3.4.1/python-3.4.1.msi>
 
 Python 3.4 includes pip and pyvenv, so we just get started. By convention, we call our environment `env34`:
 
