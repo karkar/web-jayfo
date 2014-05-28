@@ -17,7 +17,7 @@ class TestData(unittest.TestCase):
 
         self.data = {}
         for data_current in data_files:
-            with open('_data/{}.yaml'.format(data_current)) as f:
+            with open('_data/{}.yml'.format(data_current)) as f:
                 self.data[data_current] = yaml.load(f)
 
     def test_parse_yaml(self):
@@ -29,7 +29,7 @@ class TestData(unittest.TestCase):
                 self.assertIn(
                     id_author,
                     self.data['authors'],
-                    '{} not found in authors.yaml'.format(id_author)
+                    '{} not found in authors.yml'.format(id_author)
                 )
 
     def test_conferencepapers_conference_exist(self):
@@ -38,7 +38,7 @@ class TestData(unittest.TestCase):
             self.assertIn(
                 id_conference,
                 self.data['conferences'],
-                '{} not found in conferences.yaml'.format(id_conference)
+                '{} not found in conferences.yml'.format(id_conference)
             )
 
     def test_conferencepapers_files_exist(self):
@@ -77,7 +77,7 @@ class TestData(unittest.TestCase):
                 self.assertIn(
                     id_author,
                     self.data['authors'],
-                    '{} not found in authors.yaml'.format(id_author)
+                    '{} not found in authors.yml'.format(id_author)
                 )
 
     def test_journalpapers_journal_exist(self):
@@ -86,7 +86,7 @@ class TestData(unittest.TestCase):
             self.assertIn(
                 id_journal,
                 self.data['journals'],
-                '{} not found in journals.yaml'.format(id_journal)
+                '{} not found in journals.yml'.format(id_journal)
             )
 
     def test_journalpapers_files_exist(self):
@@ -117,7 +117,7 @@ class TestData(unittest.TestCase):
                 self.assertIn(
                     id_author,
                     self.data['authors'],
-                    '{} not found in authors.yaml'.format(id_author)
+                    '{} not found in authors.yml'.format(id_author)
                 )
 
     def test_workshoppapers_workshop_exist(self):
@@ -126,7 +126,7 @@ class TestData(unittest.TestCase):
             self.assertIn(
                 id_workshop,
                 self.data['workshops'],
-                '{} not found in workshops.yaml'.format(id_workshop)
+                '{} not found in workshops.yml'.format(id_workshop)
             )
 
     def test_workshoppapers_files_exist(self):

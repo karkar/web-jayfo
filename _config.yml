@@ -9,4 +9,4 @@ exclude:
   - README.md
   - requirements2.txt
   - requirements3.txt
-  - test_data
+  - tests
