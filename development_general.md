@@ -6,6 +6,18 @@ title: General Development Guide
 This page documents some of our development tools and conventions. It aims to be thorough as possible while
 remaining generic. Individual projects then document their own installation and configuration details.
 
+## <a name="Git"></a> Git, GitHub, and GitHub for Windows
+
+We use Git, GitHub, and GitHub for Windows.
+
+By convention, we define the `upstream` remote:
+
+    git remote add upstream <GitHub HTTPS clone URL>
+
+For example, when developing for [web-jayfo](https://github.com/fogies/web-jayfo) define `upstream` as:
+
+    git remote add upstream https://github.com/fogies/web-jayfo.git
+
 ## <a name="Fabric"></a> Fabric
 
 We use Fabric to script deployment tasks. It requires Python 2.7, but is difficult to properly install.
