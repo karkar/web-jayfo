@@ -53,25 +53,42 @@ The `deploy` task will deploy the site to its production location.
 
 ## <a name="Node.js"></a> Node.js
 
+### Microsoft Visual Studio C++ 2012 for Windows Desktop
+
+Many Node modules require a C compiler for native code included in the module.
+
+Microsoft Visual Studio C++ 2012 for Windows Desktop is freely available:
+
+<http://go.microsoft.com/?linkid=9816758>
+
+### Node.js
+
 When I first tried to install Node.js, a tree fell on my house. Seriously. So first check you are not under any trees.
 
 You get node here:
 
 <http://nodejs.org/download/>
 
+Unfortunately, the current installers seem to require a reboot for path settings to take effect.
+
 You should then be sure to understand the difference between global and local modules:
 
 <http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation/>
 
-## <a name="PhoneGap"></a> PhoneGap
+Following the advice "install it in both places", we install several modules globally. These each have commands that it is convenient to be able to easily execute.
 
-PhoneGap enables mobile applications based on HTML, CSS, and Javascript.
+Cordova/PhoneGap enables mobile applications based on HTML, CSS, and Javascript:
 
-First, [install Node.js]({{ site.baseurl }}/development_general.html#Node.js).
+    npm -g install cordova
+    npm -g install phonegap
 
-You then install PhoneGap using `npm`. I install it as a global module:
+Ionic works with Cordova/PhoneGap and Angular to target mobile apps:
 
-    npm install -g phonegap
+    npm -g install ionic
+
+And you should install a project's local dependencies:
+
+    npm install
 
 ## Python
 
