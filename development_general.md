@@ -18,27 +18,6 @@ For example, when developing for [web-jayfo](https://github.com/fogies/web-jayfo
 
     git remote add upstream https://github.com/fogies/web-jayfo.git
 
-## <a name="Fabric"></a> Fabric
-
-We use Fabric to script deployment tasks. It requires Python 2.7, but is difficult to properly install.
-
-First, [install Python 2.7]({{ site.baseurl }}/development_general.html#Python27), but stop prior to installing `requirements2.txt`.
-
-Fabric generally does not cleanly install from pip. The underlying problem is with installing pycrypto, and is resolved by using a prebuilt binary:
-
-    env27\Scripts\activate.bat
-    easy_install http://www.voidspace.org.uk/downloads/pycrypto26/pycrypto-2.6.win32-py2.7.exe
-
-You can now install Fabric:
-
-    env27\Scripts\activate.bat
-    pip install fabric
-
-Or your full set of Python 2.7 requirements from `requirements2.txt`.
-
-    env27\Scripts\activate.bat
-    pip install -r requirements2.txt
-
 ## <a name="Jekyll"></a> Jekyll
 
 We use Jekyll to build our websites. It requires Python 2.7 and Ruby.
