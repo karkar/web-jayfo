@@ -63,21 +63,55 @@ The `deploy` task will deploy the site to its production location.
 
     fab deploy
 
-## <a name="Node.js"></a> Node.js
+## <a name="MicrosoftVisualStudio"></a> Microsoft Visual Studio
 
-### Microsoft Visual Studio C++ 2012 for Windows Desktop
+Many Node.js and Python modules require a C compiler for included native code.
 
-Many Node modules require a C compiler for native code included in the module.
-
-Microsoft Visual Studio C++ 2012 for Windows Desktop is freely available:
+We currently use the freely available Microsoft Visual Studio C++ 2012 for Windows Desktop:
 
 <http://go.microsoft.com/?linkid=9816758>
 
-### Node.js
+### Versions
+
+Node.js and Python each expect particular versions of Microsoft Visual Studio. Currently, that expectation is:
+
+  * Node.js: Microsoft Visual Studio C++ 2012
+  * Python 3.4: Microsoft Visual Studio C++ 2010
+  * Python 2.7: Microsoft Visual Studio C++ 2008
+
+Each version defines environment variables that say where to find the build tools:
+
+  * `VS110COMNTOOLS` is defined by Microsoft Visual Studio C++ 2012
+  * `VS100COMNTOOLS` is defined by Microsoft Visual Studio C++ 2010
+  * `VS90COMNTOOLS` is defined by Microsoft Visual Studio C++ 2008
+
+Instead of installing all of these versions, we manipulate the environment variables to alias the old versions to the newer version. This is not necessarily 100% robust, but has not been problematic.
+
+This can be done locally within a session:
+
+    set VS90COMNTOOLS="%VS110COMNTOOLS%"
+    set VS100COMNTOOLS="%VS110COMNTOOLS%"
+
+Alternatively, we can define the system environment variable:
+
+     Control Panel
+     System and Security
+     System
+     Advanced system settings
+     Environment Variables...
+     System variables
+     New...
+
+![VS90COMNTOOLS]({{ site.baseurl }}/img/development_general/vs90comntools.png)
+![VS100COMNTOOLS]({{ site.baseurl }}/img/development_general/vs100comntools.png)
+
+## <a name="Node.js"></a> Node.js
 
 When I first tried to install Node.js, a tree fell on my house. Seriously. So first check you are not under any trees.
 
-You get node here:
+First, [install Microsoft Visual Studio]({{ site.baseurl }}/development_general.html#MicrosoftVisualStudio).
+
+You then need Node.js:
 
 <http://nodejs.org/download/>
 
@@ -102,36 +136,11 @@ And you should install a project's local dependencies:
 
     npm install
 
-## Python
-
-### <a name="MinGW"></a> MinGW
-
-<div class="alert">
-{% capture m %}
-These instructions for C compiling with Python 3.4 on Windows may be incorrect.
-
-<https://github.com/Fogies/web-jayfo/issues/18>
-{% endcapture %}
-{{ m | markdownify }}
-</div>
-
-Many Python modules require a C compiler for native code included in the module. If you have Microsoft Visual Studio, you may be able to skip this. I am using MinGW:
-
-<http://www.mingw.org/download/installer>
-
-During the install:
-
-  * Ensure Checked "Add GCC to your system PATH"
-  * Uncheck "Bind to Python Installations".
-  * Ensure Checked "Set the default runtime library to use". Select "MSVCR90.DLL".
-
-Binding MinGW to a Python install involves a few lines in a configuration file. The installer can insert those in your primary Python installations (e.g., `c:\Python27\`), but we should never actually use those installations.  We will instead use Python virtual environments, and discuss binding when configuring those environments.
-
-### <a name="Python27"></a> Python 2.7
+## <a name="Python27"></a> Python 2.7
 
 We use Python 2.7 as little as possible, but there are still libraries that require it.
 
-First, [install MinGW]({{ site.baseurl }}/development_general.html#MinGW).
+First, [install Microsoft Visual Studio]({{ site.baseurl }}/development_general.html#MicrosoftVisualStudio). Be sure to note the need to configure environment variables to point Python 2.7 at the install.
 
 You then need Python:
 
@@ -156,32 +165,18 @@ Finally you can create a Python environment for your project. By convention, we 
 
     c:\Python27\Scripts\virtualenv.exe env27
 
-You bind the environment to your MinGW install by editing `env27\Lib\disutils\distutils.cfg` to include:
-
-    [build]
-    compiler=mingw32
-
 Now you can install your project requirements. By convention, we put these in `requirements2.txt`:
 
     env27\Scripts\activate.bat
     pip install -r requirements2.txt
 
-If a project includes Fabric in its requirements, this install will fail. See [installing Fabric]({{ site.baseurl }}/development_general.html#Fabric).
+If a module fails with an error `Unable to find vcvarsall.bat`, it is because Microsoft Visual Studio is not set up correctly.
 
-### <a name="Python34"></a> Python 3.4
-
-<div class="alert">
-{% capture m %}
-These instructions for C compiling with Python 3.4 on Windows may be incorrect.
-
-<https://github.com/Fogies/web-jayfo/issues/18>
-{% endcapture %}
-{{ m | markdownify }}
-</div>
+## <a name="Python34"></a> Python 3.4
 
 We should use Python 3 whenever possible. Currently that means Python 3.4.
 
-First, [install MinGW]({{ site.baseurl }}/development_general.html#MinGW).
+First, [install Microsoft Visual Studio]({{ site.baseurl }}/development_general.html#MicrosoftVisualStudio). Be sure to note the need to configure environment variables to point Python 3.4 at the install.
 
 You then need Python:
 
@@ -191,15 +186,12 @@ Python 3.4 includes pip and pyvenv, so we just get started. By convention, we ca
 
     c:\Python34\Tools\Scripts\pyvenv.py env34
 
-You bind the environment to your MinGW install by editing `env34\Lib\disutils\distutils.cfg` to include:
-
-    [build]
-    compiler=mingw32
-
 Now you can install your project requirements. By convention, we put these in `requirements3.txt`:
 
     env34\Scripts\activate.bat
     pip install -r requirements3.txt
+
+If a module fails with an error `Unable to find vcvarsall.bat`, it is because Microsoft Visual Studio is not set up correctly.
 
 ## <a name="Ruby"></a> Ruby
 
