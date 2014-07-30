@@ -165,7 +165,7 @@ You then need Python:
 
 Python 3.4 includes pip and pyvenv, so we just get started. By convention, we call our environment `env34`:
 
-    c:\Python34\Tools\Scripts\pyvenv.py env34
+    c:\Python34\python.exe c:\Python34\Tools\Scripts\pyvenv.py env34
 
 Now you can install your project requirements. By convention, we put these in `requirements3.txt`:
 
