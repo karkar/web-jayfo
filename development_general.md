@@ -30,11 +30,13 @@ Now we can install Jekyll:
 
     gem install jekyll
 
-By convention, we use Jekyll to ease deployment.
+By convention, we use Fabric to ease deployment. It should be installed as part of `requirements2.txt`.
 
-First, [install Fabric]({{ site.baseurl }}/development_general.html#Fabric).
+The `build` task will compile the site to `_site`.
 
-The `serve` task will then continuously and serve the website on `localhost:4000`.
+    fab build
+
+The `serve` task will continuously compile and serve the website on `localhost:4000`.
 
     fab serve
 
