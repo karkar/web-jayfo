@@ -83,9 +83,10 @@ I pursue this work together with an outstanding group of collaborators and am fo
 * [Felicia Cordeiro](http://www.feliciacordeiro.com/)
 * [Morgan Dixon](http://homes.cs.washington.edu/~mdixon/)
 * [Daniel Epstein](http://www.depstein.net/)
+* [Ravi Karkar](http://ravikarkar.com/)
 * [Katie Kuksenok](http://students.washington.edu/kuksenok/blog/about/)
 * [Greg Nelson](http://www.greglnelson.info/)
-* [Conrad Nied](http://homes.cs.washington.edu/~anied/)
+* [Xiaoyi Zhang](http://xiaoyizhang.me/)
 
 My research has been generously supported by the National Science Foundation, FXPAL, Google, Intel, and Microsoft.
 {% endcapture %}
