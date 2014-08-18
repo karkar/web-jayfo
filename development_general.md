@@ -10,11 +10,11 @@ remaining generic. Individual projects then document their own installation and 
 
 We use Git, GitHub, and GitHub for Windows.
 
-By convention, we define the `upstream` remote:
+By convention, GitHub for Windows defines the `upstream` remote:
 
     git remote add upstream <GitHub HTTPS clone URL>
 
-For example, when developing for [web-jayfo](https://github.com/fogies/web-jayfo) define `upstream` as:
+For example, for [web-jayfo](https://github.com/fogies/web-jayfo) we define `upstream` as:
 
     git remote add upstream https://github.com/fogies/web-jayfo.git
 
