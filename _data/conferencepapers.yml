@@ -23,8 +23,8 @@ id_conferencepaper_dis2014:
     - id_author_munson_sean
   title: 'Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data'
   conference: id_conference_dis_2014
-  pages:
-  officialurl:
+  pages: 667-676
+  officialurl: http://dx.doi.org/10.1145/2598510.2598558
   localthumb: dis2014.png
   localpdf: dis2014.pdf
 
@@ -37,8 +37,8 @@ id_conferencepaper_avi2014:
     - id_author_fogarty_james
   title: 'BeatBox: End-User Interactive Definition and Training of Recognizers for Percussive Vocalizations'
   conference: id_conference_avi_2014
-  pages:
-  officialurl:
+  pages: 121-124
+  officialurl: http://dx.doi.org/10.1145/2598153.2598189
   localthumb: avi2014.png
   localpdf: avi2014.pdf
   localvideo: avi2014.mp4
