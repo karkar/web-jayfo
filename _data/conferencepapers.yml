@@ -8,8 +8,8 @@ id_conferencepaper_uist2014:
     - id_author_fogarty_james
   title: 'Prefab Layers and Annotations: Extensible Pixel-Based Interpretation of Graphical Interfaces'
   conference: id_conference_uist_2014
-  pages:
-  officialurl:
+  pages: 221-230
+  officialurl: http://dx.doi.org/10.1145/2642918.2647412
   localthumb: uist2014.png
   localpdf: uist2014.pdf
 
