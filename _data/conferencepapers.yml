@@ -1,5 +1,36 @@
 ---
 
+id_conferencepaper_chi2015_decaf:
+  pubnum: C.55
+  authors:
+    - id_author_cordeiro_felicia
+    - id_author_bales_elizabeth
+    - id_author_cherry_erin
+    - id_author_fogarty_james
+  title: 'Rethinking the Mobile Food Journal: Exploring Opportunities for Lightweight Photo-Based Capture'
+  conference: id_conference_chi_2015
+  pages:
+  officialurl:
+  localthumb: chi2015-decaf.png
+  localpdf: chi2015-decaf.pdf
+
+id_conferencepaper_chi2015_barriersandnegativenudges:
+  pubnum: C.54
+  authors:
+    - id_author_cordeiro_felicia
+    - id_author_epstein_daniel
+    - id_author_thomaz_edison
+    - id_author_bales_elizabeth
+    - id_author_jagannathan_arvind
+    - id_author_abowd_gregory
+    - id_author_fogarty_james
+  title: 'Barriers and Negative Nudges: Exploring Challenges in Food Journaling'
+  conference: id_conference_chi_2015
+  pages:
+  officialurl:
+  localthumb: chi2015-barriersandnegativenudges.png
+  localpdf: chi2015-barriersandnegativenudges.pdf
+
 id_conferencepaper_uist2014:
   pubnum: C.53
   authors:

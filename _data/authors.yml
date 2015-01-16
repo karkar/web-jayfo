@@ -5,6 +5,12 @@
 #     - O.
 ---
 
+id_author_abowd_gregory:
+  name:
+    - Abowd
+    - Gregory
+    - D.
+
 id_author_adar_eytan:
   name:
     - Adar
@@ -112,6 +118,11 @@ id_author_chalecki_jason:
   name:
     - Chalecki
     - Jason
+
+id_author_cherry_erin:
+  name:
+    - Cherry
+    - Erin
 
 id_author_christensen_jim:
   name:
@@ -263,6 +274,12 @@ id_author_isenhour_philip:
   name:
     - Isenhour
     - Philip
+
+id_author_jagannathan_arvind:
+  name:
+    - Jagannathan
+    - Arvind
+    - K.
 
 id_author_kapoor_ashish:
   name:
@@ -471,6 +488,11 @@ id_author_tang_karen:
     - Tang
     - Karen
     - P.
+
+id_author_thomaz_edison:
+  name:
+    - Thomaz
+    - Edison
 
 id_author_toomim_michael:
   name:
