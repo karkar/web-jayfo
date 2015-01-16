@@ -46,6 +46,11 @@ id_conference_avi_2014:
   shortname: AVI 2014
   year: 2014
 
+id_conference_chi_2015:
+  longname: *chi
+  shortname: CHI 2015
+  year: 2015
+
 id_conference_chi_2014:
   longname: *chi
   shortname: CHI 2014
