@@ -1,5 +1,17 @@
 ---
 
+id_workshoppaper_chi2015_personalinformatics:
+  pubnum: W.21
+  authors:
+    - id_author_epstein_daniel
+    - id_author_lee_nicole
+    - id_author_bales_elizabeth
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'Wearables of 2025: Designing Personal Informatics for a Broader Audience'
+  workshop: id_workshop_chi2015_personal_informatics
+  localpdf: workshop-chi2015.pdf
+
 id_workshoppaper_ubicomp2014_personalinformatics:
   pubnum: W.20
   authors:
