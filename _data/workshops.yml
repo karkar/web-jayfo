@@ -10,6 +10,11 @@ id_workshop_ubicomp2014_personal_informatics:
   shortname: UbiComp 2014
   year: 2014
 
+id_workshop_hcic2014:
+  longname: 'Presented at the Human Computer Interaction Consortium Annual Conference'
+  shortname: HCIC 2014
+  year: 2014
+
 id_workshop_chi2013_personal_informatics:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Personal Informatics in the Wild: Hacking Habits for Health & Happiness'
   shortname: CHI 2013

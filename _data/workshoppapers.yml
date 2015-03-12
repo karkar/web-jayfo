@@ -1,7 +1,7 @@
 ---
 
 id_workshoppaper_chi2015_personalinformatics:
-  pubnum: W.21
+  pubnum: W.22
   authors:
     - id_author_epstein_daniel
     - id_author_lee_nicole
@@ -13,7 +13,7 @@ id_workshoppaper_chi2015_personalinformatics:
   localpdf: workshop-chi2015.pdf
 
 id_workshoppaper_ubicomp2014_personalinformatics:
-  pubnum: W.20
+  pubnum: W.21
   authors:
     - id_author_epstein_daniel
     - id_author_fogarty_james
@@ -21,6 +21,17 @@ id_workshoppaper_ubicomp2014_personalinformatics:
   title: 'Failures in Sharing Personal Data on Social Networking Sites'
   workshop: id_workshop_ubicomp2014_personal_informatics
   localpdf: workshop-ubicomp2014-personalinformatics.pdf
+
+id_workshoppaper_hcic2014_personalinformatics:
+  pubnum: W.20
+  authors:
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+    - id_author_patel_shwetak
+  title: 'Getting Personal with Personal Informatics'
+  workshop: id_workshop_hcic2014
+  localpdf: workshop-hcic2014.pdf
 
 id_workshoppaper_chi2013:
   pubnum: W.19
