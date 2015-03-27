@@ -88,7 +88,8 @@ I pursue this work together with an outstanding group of collaborators and am fo
 * [Greg Nelson](http://www.greglnelson.info/)
 * [Xiaoyi Zhang](http://xiaoyizhang.me/)
 
-My research has been generously supported by the National Science Foundation, FXPAL, Google, Intel, and Microsoft.
+My research has been directly supported by the National Science Foundation and by the Agency for Healthcare Research and Quality.
+We have also been generously supported by FXPAL, Google, Intel, Microsoft, and Nokia.
 {% endcapture %}
 {{ m | markdownify }}
     </div>
