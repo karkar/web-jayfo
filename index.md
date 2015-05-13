@@ -85,6 +85,7 @@ I pursue this work together with an outstanding group of collaborators and am fo
 * [Ravi Karkar](http://ravikarkar.com/)
 * [Katie Kuksenok](http://students.washington.edu/kuksenok/blog/about/)
 * [Greg Nelson](http://www.greglnelson.info/)
+* [Jessie Schroeder](http://homes.cs.washington.edu/~jesscs/)
 * [Xiaoyi Zhang](http://xiaoyizhang.me/)
 
 My research has been directly supported by the National Science Foundation and by the Agency for Healthcare Research and Quality.
