@@ -80,7 +80,6 @@ My broad research interests are in Human-Computer Interaction, User Interface So
 
 I pursue this work together with an outstanding group of collaborators and am fortunate to advise amazing students:
 
-* [Felicia Cordeiro](http://www.feliciacordeiro.com/)
 * [Morgan Dixon](http://homes.cs.washington.edu/~mdixon/)
 * [Daniel Epstein](http://www.depstein.net/)
 * [Ravi Karkar](http://ravikarkar.com/)
