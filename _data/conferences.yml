@@ -186,6 +186,11 @@ id_conference_ubicomp_2013:
   shortname: UbiComp 2013
   year: 2013
 
+id_conference_ubicomp_2015:
+  longname: *ubicomp
+  shortname: UbiComp 2015
+  year: 2015
+
 id_conference_ubicomp_2009:
   longname: *ubicomp_premerger
   shortname: UbiComp 2009
