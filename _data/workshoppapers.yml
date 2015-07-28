@@ -1,5 +1,18 @@
 ---
 
+id_workshoppaper_ubicomp2015_quantifiedself:
+  pubnum: W.23
+  authors:
+    - id_author_karkar_ravi
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+    - id_author_vilardaga_roger
+    - id_author_zia_jasmine
+  title: 'Opportunities and Challenges for Self-Experimentation in Self-Tracking'
+  workshop: id_workshop_ubicomp2015_quantified_self
+  localpdf: workshop-ubicomp2015-qs.pdf
+
 id_workshoppaper_chi2015_personalinformatics:
   pubnum: W.22
   authors:
