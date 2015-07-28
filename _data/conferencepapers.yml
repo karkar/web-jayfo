@@ -1,5 +1,17 @@
 ---
 
+id_conferencepaper_ubi2015:
+  pubnum: C.56
+  authors:
+    - id_author_epstein_daniel
+    - id_author_ping_an
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'A Lived Informatics Model of Personal Informatics'
+  conference: id_conference_ubicomp_2015
+  localthumb: ubicomp2015.png
+  localpdf: ubicomp2015.pdf
+
 id_conferencepaper_chi2015_decaf:
   pubnum: C.55
   authors:

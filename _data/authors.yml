@@ -439,6 +439,11 @@ id_author_patel_shwetak:
     - Shwetak
     - N.
 
+id_author_ping_an:
+  name:
+    - Ping
+    - An
+
 id_author_players_foldit:
   name:
     - Foldit Players
