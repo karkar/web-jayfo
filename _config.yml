@@ -2,11 +2,12 @@ name:       James Fogarty
 baseurl:    /~jfogarty
 
 exclude:
-  - env27
+  # Our Python
   - env34
-  - fabfile.py
-  - fabfile.pyc
-  - README.md
-  - requirements2.txt
   - requirements3.txt
+  - tasks.py
+  - tasks.pyc
+  # Project README
+  - README.md
+  # Tests
   - tests
