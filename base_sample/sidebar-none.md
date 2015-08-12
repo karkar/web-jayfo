@@ -1,6 +1,6 @@
 ---
-layout: sidebar-none
-title: "Base Sample sidebar-none"
+layout: base/sidebar-none
+title: "sidebar-none"
 ---
 
 Main region content.

@@ -1,13 +1,19 @@
 name:       James Fogarty
 baseurl:    /~jfogarty
 
+brandimage: ''
+brandtext:  'James Fogarty'
+
 exclude:
-  # Our Python
+  # Python
   - env34
   - requirements3.txt
   - tasks.py
   - tasks.pyc
-  # Project README
+  # README
   - README.md
+  # Ruby
+  - Gemfile
+  - Gemfile.lock
   # Tests
   - tests
