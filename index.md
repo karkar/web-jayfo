@@ -1,6 +1,7 @@
 ---
 layout: base/sidebar-none
 title: James Fogarty
+brandtext: ''
 ---
 
 <!-- start row -->
