@@ -20,16 +20,16 @@ jfogarty [at] cs [dot] washington [dot] edu
 </div>
 
 <div class="col-md-4" markdown="block">
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel-group" id="accordionContact" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
+    <div class="panel-heading" role="tab" id="headingMailingAddress">
       <div class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionContact" href="#collapseMailingAddress" aria-expanded="false" aria-controls="collapseMailingAddress">
           Mailing Address &raquo;
         </a>
       </div>
     </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+    <div id="collapseMailingAddress" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingMailingAddress">
       <div class="panel-body">
 Computer Science &amp; Engineering<br/>
 University of Washington<br/>
@@ -39,14 +39,14 @@ Seattle, WA 98195
     </div>
   </div>
   <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
+    <div class="panel-heading" role="tab" id="headingResearchCoordinator">
       <div class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionContact" href="#collapseResearchCoordinator" aria-expanded="false" aria-controls="collapseResearchCoordinator">
           Research Coordinator &raquo;
         </a>
       </div>
     </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+    <div id="collapseResearchCoordinator" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingResearchCoordinator">
       <div class="panel-body">
 Melody Kadenko<br/>
 melody [at] cs [dot] washington [dot] edu
