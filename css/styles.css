@@ -1,7 +1,12 @@
-#accordionContact .panel-title
+#accordionContact
 {
-    font-size: 85%;
 }
+
+    #accordionContact .panel-body,
+    #accordionContact .panel-title
+    {
+        font-size: 85%;
+    }
 
 /************************************************************/
 /* Colors
