@@ -8,6 +8,11 @@
         font-size: 85%;
     }
 
+    #accordionContact .panel-heading
+    {
+        background-color: #ffffff;
+    }
+
 /************************************************************/
 /* Colors
 /*
