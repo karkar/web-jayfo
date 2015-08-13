@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base/sidebar-none
 title: Development Guide
 ---
 
