@@ -13,6 +13,26 @@
         background-color: #ffffff;
     }
 
+.publicationheader
+{
+    background-color: #392952;
+    color: #ffffff;
+    margin-bottom: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+.publication
+{
+    margin-bottom: 1em;
+}
+
+.publication img
+{
+    border: 2px solid #392952;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
 /************************************************************/
 /* Colors
 /*
