@@ -1,5 +1,10 @@
 ---
 
+id_workshop_ubicomp2015_quantified_self:
+  longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on New Frontiers of Quantified Self: Finding New Ways for Engaging Users in Collecting and Using Personal Data'
+  shortname: UbiComp 2015
+  year: 2015
+
 id_workshop_chi2015_personal_informatics:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Beyond Personal Informatics: Designing for Experiences with Data'
   shortname: CHI 2015

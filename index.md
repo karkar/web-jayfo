@@ -75,12 +75,12 @@ My broad research interests are in Human-Computer Interaction, User Interface So
 
 I pursue this work together with an outstanding group of collaborators and am fortunate to advise amazing students:
 
-* [Felicia Cordeiro](http://www.feliciacordeiro.com/)
 * [Morgan Dixon](http://homes.cs.washington.edu/~mdixon/)
 * [Daniel Epstein](http://www.depstein.net/)
 * [Ravi Karkar](http://ravikarkar.com/)
 * [Katie Kuksenok](http://students.washington.edu/kuksenok/blog/about/)
 * [Greg Nelson](http://www.greglnelson.info/)
+* [Jessie Schroeder](http://homes.cs.washington.edu/~jesscs/)
 * [Xiaoyi Zhang](http://xiaoyizhang.me/)
 
 My research has been directly supported by the National Science Foundation and by the Agency for Healthcare Research and Quality.

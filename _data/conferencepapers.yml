@@ -1,5 +1,17 @@
 ---
 
+id_conferencepaper_ubi2015:
+  pubnum: C.56
+  authors:
+    - id_author_epstein_daniel
+    - id_author_ping_an
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'A Lived Informatics Model of Personal Informatics'
+  conference: id_conference_ubicomp_2015
+  localthumb: ubicomp2015.png
+  localpdf: ubicomp2015.pdf
+
 id_conferencepaper_chi2015_decaf:
   pubnum: C.55
   authors:
@@ -9,8 +21,8 @@ id_conferencepaper_chi2015_decaf:
     - id_author_fogarty_james
   title: 'Rethinking the Mobile Food Journal: Exploring Opportunities for Lightweight Photo-Based Capture'
   conference: id_conference_chi_2015
-  pages:
-  officialurl:
+  pages: 3207-3216
+  officialurl: http://dx.doi.org/10.1145/2702123.2702154
   localthumb: chi2015-decaf.png
   localpdf: chi2015-decaf.pdf
 
@@ -26,8 +38,8 @@ id_conferencepaper_chi2015_barriersandnegativenudges:
     - id_author_fogarty_james
   title: 'Barriers and Negative Nudges: Exploring Challenges in Food Journaling'
   conference: id_conference_chi_2015
-  pages:
-  officialurl:
+  pages: 1159-1162
+  officialurl: http://dx.doi.org/10.1145/2702123.2702155
   localthumb: chi2015-barriersandnegativenudges.png
   localpdf: chi2015-barriersandnegativenudges.pdf
 
