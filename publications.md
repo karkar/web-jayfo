@@ -7,13 +7,13 @@ title: Publications
 {% for item_paper in site.data.journalpapers %}
   {% assign paper = item_paper[1] %}
   <div class="row">
-    <div class="col-md-12">
-      <div class="publicationheader">
+    <div class="publicationheader">
+      <div class="col-md-12">
         <div class="row">
-            <div class="col-xs-3">
+            <div class="col-xs-4">
         [{{ paper.pubnum }}]
             </div>
-            <div class="col-xs-3 pull-right text-right hidden-md hidden-lg">
+            <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
                 <a href="{{ paper.officialurl }}">official&nbsp;PDF</a>
             </div>
         </div>
@@ -34,7 +34,7 @@ title: Publications
       </div>
       <div class="publicationimage">
         <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">
-          <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}" width="90" height="90">
+          <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}">
         </a>
       </div>
       <div class="publicationcitation">
@@ -62,13 +62,13 @@ title: Publications
 {% for item_paper in site.data.conferencepapers %}
   {% assign paper = item_paper[1] %}
   <div class="row">
-    <div class="col-md-12">
-      <div class="publicationheader">
+    <div class="publicationheader">
+      <div class="col-md-12">
         <div class="row">
-            <div class="col-xs-3">
+            <div class="col-xs-4">
         [{{ paper.pubnum }}]
             </div>
-            <div class="col-xs-3 pull-right text-right hidden-md hidden-lg">
+            <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
                 <a href="{{ paper.officialurl }}">official&nbsp;PDF</a>
             </div>
         </div>
@@ -89,7 +89,7 @@ title: Publications
       </div>
       <div class="publicationimage">
         <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">
-          <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}" width="90" height="90">
+          <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}">
         </a>
       </div>
       <div class="publicationcitation">
@@ -117,13 +117,13 @@ title: Publications
 {% for item_paper in site.data.workshoppapers %}
   {% assign paper = item_paper[1] %}
   <div class="row">
-    <div class="col-md-12">
-      <div class="publicationheader">
+    <div class="publicationheader">
+      <div class="col-md-12">
         <div class="row">
-            <div class="col-xs-3">
+            <div class="col-xs-4">
         [{{ paper.pubnum }}]
             </div>
-            <div class="col-xs-3 pull-right text-right hidden-md hidden-lg">
+            <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
                 <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;PDF</a>
             </div>
         </div>
