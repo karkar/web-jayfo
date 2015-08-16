@@ -17,8 +17,10 @@
 {
     background-color: #392952;
     margin-bottom: 3px;
-    padding: 5px 15px 5px 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 85%;
+    overflow: auto;
 }
 
     .publicationheader div,
@@ -30,8 +32,8 @@
 .publicationcontent
 {
     margin-bottom: 1em;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     overflow: auto;
 }
 
@@ -45,32 +47,54 @@
     .publicationcontent .publicationimage
     {
         float: left;
-        width: 125px;
+        width: 65px;
     }
 
     .publicationcontent > .publicationimage img
     {
         border: 2px solid #615475;
-        /* border: 2px solid #392952; */
         border-radius: 2px;
+        width: 50px;
     }
 
-    .publicationcontent .publicationcitation,
+    .publicationcontent .publicationcitation
     {
-        margin-left: 125px;
+        margin-left: 65px;
     }
 
 /* apply these only at medium or larger */
 @media (min-width: 992px) {
-    .publicationcontent .publicationcitation
+    .publicationheader
     {
-        margin-left: 225px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
-    .publicationcontent .publicationworkshopcitation
+    .publicationcontent
     {
-        margin-left: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
+
+        .publicationcontent .publicationimage
+        {
+            width: 125px;
+        }
+
+        .publicationcontent .publicationimage img
+        {
+            width: 90px;
+        }
+
+        .publicationcontent .publicationcitation
+        {
+            margin-left: 225px;
+        }
+
+        .publicationcontent .publicationworkshopcitation
+        {
+            margin-left: 100px;
+        }
 }
 
 /************************************************************/
