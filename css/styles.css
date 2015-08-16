@@ -16,21 +16,61 @@
 .publicationheader
 {
     background-color: #392952;
-    color: #ffffff;
     margin-bottom: 3px;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 85%;
 }
 
-.publication
+    .publicationheader div,
+    .publicationheader a
+    {
+        color: #ffffff;
+    }
+
+.publicationcontent
 {
     margin-bottom: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: auto;
 }
 
-.publication img
-{
-    border: 2px solid #392952;
-    border-radius: 2px;
-    margin-left: 10px;
+    .publicationcontent .publicationlinks
+    {
+        font-size: 85%;
+        float: left;
+        width: 100px;
+    }
+
+    .publicationcontent .publicationimage
+    {
+        float: left;
+        width: 125px;
+    }
+
+    .publicationcontent > .publicationimage img
+    {
+        border: 2px solid #615475;
+        /* border: 2px solid #392952; */
+        border-radius: 2px;
+    }
+
+    .publicationcontent .publicationcitation,
+    {
+        margin-left: 125px;
+    }
+
+/* apply these only at medium or larger */
+@media (min-width: 992px) {
+    .publicationcontent .publicationcitation
+    {
+        margin-left: 225px;
+    }
+
+    .publicationcontent .publicationworkshopcitation
+    {
+        margin-left: 100px;
+    }
 }
 
 /************************************************************/
