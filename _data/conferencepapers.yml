@@ -9,6 +9,8 @@ id_conferencepaper_ubi2015:
     - id_author_munson_sean
   title: 'A Lived Informatics Model of Personal Informatics'
   conference: id_conference_ubicomp_2015
+  pages: 731-742
+  officialurl: http://dx.doi.org/10.1145/2750858.2804250
   localthumb: ubicomp2015.png
   localpdf: ubicomp2015.pdf
 
