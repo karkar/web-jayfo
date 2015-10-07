@@ -6,13 +6,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {% include navheader_brand.html %}
+      {% include base/navheader_brand.html %}
     </div>
     <div class="collapse navbar-collapse" id="mainNavbarContent">
       <div>
         <ul class="nav navbar-nav navbar-right">
           {% for item_nav in site.navbar.items %}
-            {% capture item_nav_computed_url %}{{ site.baseurl }}/{{ item_nav.link }}{% endcapture %}
+            {% capture item_nav_computed_url %}/{{ item_nav.link }}{% endcapture %}
             {% if page.url == item_nav_computed_url %}
               <li class="active">
             {% else %}
