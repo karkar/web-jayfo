@@ -1,5 +1,24 @@
 ---
 
+id_journalpaper_jamia2015:
+  pubnum: J.06
+  authors:
+    - id_author_karkar_ravi
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+    - id_author_vilardaga_roger
+    - id_author_zia_jasmine
+  title: 'A Framework for Self-Experimentation in Personalized Health'
+  journal: id_journal_jamia
+  year: 2015
+  volume: xx
+  issue: xx
+  pages: xx-xx
+  officialurl: http://
+  localthumb: jamia2015.png
+  localpdf: 
+
 id_journalpaper_ip2012:
   pubnum: J.05
   authors:

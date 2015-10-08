@@ -286,6 +286,11 @@ id_author_kapoor_ashish:
     - Kapoor
     - Ashish
 
+id_author_karkar_ravi:
+  name:
+    - Karkar
+    - Ravi
+
 id_author_keyani_pedram:
   name:
     - Keyani
@@ -521,6 +526,11 @@ id_author_van_metre_christina:
     - Van Metre
     - Christina
 
+id_author_vilardaga_roger:
+  name:
+    - Vilardaga
+    - Roger
+
 id_author_welbourne_evan:
   name:
     - Welbourne
@@ -562,6 +572,11 @@ id_author_zhang_xianhang:
   name:
     - Zhang
     - Xianhang
+
+id_author_zia_jasmine:
+  name:
+    - Zia
+    - Jasmine
 
 id_author_ziola_ryder:
   name:
