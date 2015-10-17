@@ -228,6 +228,11 @@ id_author_golden_elspeth:
     - Golden
     - Elspeth
 
+id_author_gollakota_shyamnath:
+  name:
+    - Gollakota
+    - Shyamnath
+
 id_author_grampurohit_shweta:
   name:
     - Grampurohit
@@ -263,6 +268,11 @@ id_author_hong_jason:
     - Hong
     - Jason
     - I.
+
+id_author_huang_donny:
+  name:
+    - Huang
+    - Donny
 
 id_author_hudson_scott:
   name:
@@ -577,6 +587,11 @@ id_author_zhang_xianhang:
   name:
     - Zhang
     - Xianhang
+
+id_author_zhang_xiaoyi:
+  name:
+    - Zhang
+    - Xiaoyi
 
 id_author_zia_jasmine:
   name:

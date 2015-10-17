@@ -78,7 +78,7 @@ I pursue this work together with an outstanding group of collaborators and am fo
 * [Morgan Dixon](http://homes.cs.washington.edu/~mdixon/)
 * [Daniel Epstein](http://www.depstein.net/)
 * [Ravi Karkar](http://ravikarkar.com/)
-* [Katie Kuksenok](http://students.washington.edu/kuksenok/blog/about/)
+* [Katerena Kuksenok](http://katerena.github.io)
 * [Greg Nelson](http://www.greglnelson.info/)
 * [Jessie Schroeder](http://homes.cs.washington.edu/~jesscs/)
 * [Xiaoyi Zhang](http://xiaoyizhang.me/)

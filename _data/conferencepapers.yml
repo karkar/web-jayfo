@@ -1,5 +1,18 @@
 ---
 
+id_conferencepaper_uist2015:
+  pubnum: C.57
+  authors:
+    - id_author_huang_donny
+    - id_author_zhang_xiaoyi
+    - id_author_saponas_scott
+    - id_author_fogarty_james
+    - id_author_gollakota_shyamnath
+  title: 'Leveraging Dual-Observable Input for Fine-Grained Thumb Interaction Using Forearm EMG'
+  conference: id_conference_uist_2015
+  localthumb: uist2015.png
+  localpdf: uist2015.pdf
+
 id_conferencepaper_ubi2015:
   pubnum: C.56
   authors:
@@ -9,6 +22,8 @@ id_conferencepaper_ubi2015:
     - id_author_munson_sean
   title: 'A Lived Informatics Model of Personal Informatics'
   conference: id_conference_ubicomp_2015
+  pages: 731-742
+  officialurl: http://dx.doi.org/10.1145/2750858.2804250
   localthumb: ubicomp2015.png
   localpdf: ubicomp2015.pdf
 

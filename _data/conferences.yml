@@ -196,6 +196,10 @@ id_conference_ubicomp_2009:
   shortname: UbiComp 2009
   year: 2009
 
+id_conference_uist_2015:
+  longname: *uist
+  shortname: UIST 2015
+  year: 2015
 
 id_conference_uist_2014:
   longname: *uist
