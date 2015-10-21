@@ -129,6 +129,11 @@ id_author_christensen_jim:
     - Christensen
     - Jim
 
+id_author_cole_allison:
+  name:
+    - Cole
+    - Allison
+
 id_author_consolvo_sunny:
   name:
     - Consolvo
@@ -144,10 +149,20 @@ id_author_cordeiro_felicia:
     - Cordeiro
     - Felicia
 
+id_author_chung_chia-fang:
+  name:
+    - Chung
+    - Chia-Fang
+
 id_author_dabbish_laura:
   name:
     - Dabbish
     - Laura
+
+id_author_dew_kristin:
+  name:
+    - Dew
+    - Kristin
 
 id_author_dey_anind:
   name:

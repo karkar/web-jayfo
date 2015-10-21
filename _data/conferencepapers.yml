@@ -1,5 +1,20 @@
 ---
 
+id_conferencepaper_cscw2016:
+  pubnum: C.58
+  authors:
+    - id_author_chung_chia-fang
+    - id_author_dew_kristin
+    - id_author_cole_allison
+    - id_author_zia_jasmine
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+  title: 'Boundary Negotiating Artifacts in Personal Informatics: Patient-Provider Collaboration with Patient-Generated Data'
+  conference: id_conference_cscw_2016
+  localthumb: cscw2016.png
+  localpdf: cscw2016.pdf
+
 id_conferencepaper_uist2015:
   pubnum: C.57
   authors:
