@@ -111,6 +111,11 @@ id_conference_cikm_2009:
   shortname: CIKM 2009
   year: 2009
 
+id_conference_cscw_2016:
+  longname: *cscw
+  shortname: CSCW 2016
+  year: 2016
+
 id_conference_cscw_2008:
   longname: *cscw
   shortname: CSCW 2008
