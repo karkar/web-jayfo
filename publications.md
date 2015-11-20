@@ -61,9 +61,15 @@ title: Publications
           {% endif %}
           {% assign journal = site.data.journals[paper.journal] %}
           <i>{{ journal.longname }}</i>{% if journal.shortname %} ({{ journal.shortname }}){% endif %}.
-          Vol.&nbsp;{{ paper.volume }},
-          Iss.&nbsp;{{ paper.issue }},
-          pp.&nbsp;{{ paper.pages }}.
+          {% if paper.volume %}
+            Vol.&nbsp;{{ paper.volume }},
+          {% endif %}
+          {% if paper.issue %}
+            Iss.&nbsp;{{ paper.issue }},
+          {% endif %}
+          {% if paper.pages %}
+            pp.&nbsp;{{ paper.pages }}.
+          {% endif %}
       </div>
     </div>
   </div>
