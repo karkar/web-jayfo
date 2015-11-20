@@ -175,6 +175,9 @@ title: Publications
           ({{ workshop.year }}).
           <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
           <i>{{ workshop.longname }}</i>{% if workshop.shortname %} <span class="text-nowrap">({{ workshop.shortname }})</span>{% endif %}.
+          {% if paper.pages %}
+            pp.&nbsp;{{ paper.pages }}.
+          {% endif %}
       </div>
     </div>
   </div>

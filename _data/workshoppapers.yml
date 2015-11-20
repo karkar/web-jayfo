@@ -11,6 +11,7 @@ id_workshoppaper_ubicomp2015_quantifiedself:
     - id_author_zia_jasmine
   title: 'Opportunities and Challenges for Self-Experimentation in Self-Tracking'
   workshop: id_workshop_ubicomp2015_quantified_self
+  pages: 991-996
   officialurl: http://dx.doi.org/10.1145/2800835.2800949
   localpdf: workshop-ubicomp2015-quantifiedself.pdf
 
