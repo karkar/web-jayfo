@@ -60,6 +60,7 @@ We currently use:
     ruby dk.rb install
     ~~~
 
+{% comment %}
 ## Installing Microsoft Visual Studio
 
 Many Node.js and Python packages require a C compiler for included native code. We currently use:
@@ -94,6 +95,7 @@ But we generally define the system environment variable:
     New...
 
 ![VS100COMNTOOLS]({{ site.baseurl }}/development/vs100comntools.png)
+{% endcomment %}
 
 ## Creating a Virtual Environment and Installing Dependencies
 
