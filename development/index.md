@@ -1,15 +1,17 @@
 ---
 layout: base/bar-sidebar-none
 title: Development Guide
+
+working_directory: web-jayfo
 ---
 
 # Building a Jekyll Site
 
-This site is implemented in Jekyll, thus requiring Ruby and Node.js.
+This site is implemented in Jekyll, thus requiring Ruby and Node.js. We also use Python in our automation and testing.
 
-We also use Python in some of our automation and testing.
-
+{% comment %}
 Packages installed by the above can sometimes require a native compiler, for which we use Microsoft Visual Studio.
+{% endcomment %}
 
 ## Installing Node.js, Python, Ruby, and Ruby DevKit
 
@@ -52,7 +54,7 @@ We currently use:
 
   - Extract to `c:\RubyDevKit`.
 
-  - Install the DevKit into our Ruby installation, via the command line:
+  - Install the DevKit into our Ruby installation:
   
     ~~~
     cd c:\RubyDevKit
@@ -100,15 +102,14 @@ But we generally define the system environment variable:
 ## Creating a Virtual Environment and Installing Dependencies
 
 All Python work should be done within a virtual environment, to avoid dependency conflicts.
-
 Node.js and Ruby have their own dependency management (i.e., npm shrinkwrap and bundler).
 Our Python automation scripts will employ those tools, but we first need to configure Python.
 
-Create the virtual environment. From the working directory of our project, (e.g., `c:\devel\web-jayfo\`), via the command line:
+Create the virtual environment. From the working directory of our project (e.g., `c:\devel\{{ page.working_directory }}\`):
 
     c:\Python35\python.exe -m venv env35    
 
-This will create a directory for the virtual environment (e.g., `c:\devel\web-jayfo\env35\`).
+This will create a directory for the virtual environment (e.g., `c:\devel\{{ page.working_directory }}\env35\`).
 
 Next activate that virtual environment and install our Python dependencies: 
 
@@ -119,13 +120,16 @@ Next use Python's invoke automation to get the rest of our dependencies:
 
     invoke update_dependencies
 
+{% comment %}
 If a package fails with an error `Unable to find vcvarsall.bat`, it is because Microsoft Visual Studio is not set up correctly.
+{% endcomment %}
 
 ## Building and Serving the Site
 
 Invoke automation is provided for building the site.  
 
-Activate the virtual environment. From the working directory of our project, (e.g., `c:\devel\web-jayfo\`), via the command line:
+If it is not already active, you need to re-activate the virtual environment.
+From the working directory of our project (e.g., `c:\devel\{{ page.working_directory }}\`):
 
     env35\Scripts\activate.bat
 
