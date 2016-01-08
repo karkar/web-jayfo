@@ -14,3 +14,6 @@ id_journal_tochi:
   longname: ACM Transactions on Computer-Human Interaction
   shortname: TOCHI
 
+id_journal_jamia:
+  longname: Journal of the American Medical Informatics Association
+  shortname: JAMIA
