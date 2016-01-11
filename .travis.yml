@@ -1,18 +1,20 @@
 language: python
 
 python:
-  - "3.4"
+  - "3.5"
 
 install:
   # Install Ruby
   - rvm install 2.2.3
+  - rvm @global do gem install bundler -v 1.10.6
+  - rvm @global do gem uninstall bundler -v "!=1.10.6"
   - rvm use 2.2.3 --default
 
   # Install NodeJS
   - nvm install 5.1.0
 
   # Install Python dependencies
-  - pip install -r requirements3.txt
+  - pip install invoke
 
   # Invoke will get our other dependencies
   - invoke update_dependencies
