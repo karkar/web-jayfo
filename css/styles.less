@@ -1,0 +1,99 @@
+#accordionContact
+{
+  .panel-body,
+  .panel-title
+  {
+      font-size: 85%;
+  }
+
+  .panel-heading
+  {
+    background-color: #ffffff;
+  }
+}
+
+.publicationheader
+{
+  background-color: @base-primary-color;
+  margin-bottom: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 85%;
+  overflow: auto;
+
+  div,
+  a
+  {
+    color: #ffffff;
+  }
+}
+
+.publicationcontent
+{
+  margin-bottom: 1em;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: auto;
+
+  .publicationlinks
+  {
+    font-size: 85%;
+    float: left;
+    width: 100px;
+  }
+
+  .publicationimage
+  {
+    float: left;
+    width: 65px;
+
+    img
+    {
+      border: 1px solid grey;
+      border-radius: 2px;
+      width: 50px;
+    }
+  }
+
+  .publicationcitation
+  {
+      margin-left: 65px;
+  }
+}
+
+/* apply these only at medium or larger */
+@media (min-width: @screen-md-min) {
+  .publicationheader
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .publicationcontent
+  {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .publicationimage
+    {
+      width: 125px;
+
+      img
+      {
+        width: 90px;
+      }
+    }
+
+
+    .publicationcitation
+    {
+      margin-left: 225px;
+    }
+
+    .publicationworkshopcitation
+    {
+      margin-left: 100px;
+    }
+  }
+}
+
