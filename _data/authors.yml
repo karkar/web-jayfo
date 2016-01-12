@@ -114,6 +114,11 @@ id_author_carroll_john:
     - John
     - M.
 
+id_author_caraway_monica:
+  name:
+    - Caraway
+    - Monica
+
 id_author_chalecki_jason:
   name:
     - Chalecki
@@ -284,6 +289,11 @@ id_author_hong_jason:
     - Jason
     - I.
 
+id_author_hsieh_gary:
+  name:
+    - Hsieh
+    - Gary
+
 id_author_huang_donny:
   name:
     - Huang
@@ -305,6 +315,11 @@ id_author_jagannathan_arvind:
     - Jagannathan
     - Arvind
     - K.
+
+id_author_johnston_chuck:
+  name:
+    - Johnston
+    - Chuck
 
 id_author_kapoor_ashish:
   name:
