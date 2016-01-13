@@ -1,5 +1,16 @@
 ---
 
+id_conferencepaper_chi16_login:
+  pubnum: C.61
+  authors:
+    - id_author_zhang_xiaoyi
+    - id_author_pina_laura
+    - id_author_fogarty_james
+  title: 'Examining Unlock Journaling with Diaries and Reminders for In Situ Self-Report in Health and Wellness'
+  conference: id_conference_chi_2016
+  localthumb: chi2016_login.png
+  localpdf: chi2016_login.pdf
+
 id_conferencepaper_chi16_food4thought:
   pubnum: C.60
   authors:
