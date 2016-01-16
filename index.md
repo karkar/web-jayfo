@@ -73,7 +73,7 @@ I am an Associate Professor of Computer Science & Engineering at the University 
 
 My broad research interests are in Human-Computer Interaction, User Interface Software and Technology, and Ubiquitous Computing. My focus is on developing, deploying, and evaluating new approaches to the human obstacles surrounding widespread everyday adoption of ubiquitous sensing and intelligent computing technologies.
 
-I pursue this work together with an outstanding group of collaborators and am fortunate to advise amazing students and postdocs:
+I pursue this work together with an outstanding group of collaborators and amazing advisees:
 
 * [Daniel Epstein](http://www.depstein.net/)
 * [Ravi Karkar](http://ravikarkar.com/)
