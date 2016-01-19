@@ -73,14 +73,16 @@ I am an Associate Professor of Computer Science & Engineering at the University 
 
 My broad research interests are in Human-Computer Interaction, User Interface Software and Technology, and Ubiquitous Computing. My focus is on developing, deploying, and evaluating new approaches to the human obstacles surrounding widespread everyday adoption of ubiquitous sensing and intelligent computing technologies.
 
-I pursue this work together with an outstanding group of collaborators and am fortunate to advise amazing students:
+I pursue this work together with an outstanding group of collaborators and amazing advisees:
 
-* [Morgan Dixon](http://homes.cs.washington.edu/~mdixon/)
 * [Daniel Epstein](http://www.depstein.net/)
 * [Ravi Karkar](http://ravikarkar.com/)
-* [Katerena Kuksenok](http://katerena.github.io)
+* [Katerena Kuksenok](https://katerena.github.io)
 * [Greg Nelson](http://www.greglnelson.info/)
-* [Jessie Schroeder](http://homes.cs.washington.edu/~jesscs/)
+* Laura Pina
+* [Anne Ross](https://homes.cs.washington.edu/~ansross/)
+* [Jessie Schroeder](https://homes.cs.washington.edu/~jesscs/)
+* [Amanda Swearngin](https://homes.cs.washington.edu/~amaswea/)
 * [Xiaoyi Zhang](http://xiaoyizhang.me/)
 
 My research has been directly supported by the National Science Foundation and by the Agency for Healthcare Research and Quality.

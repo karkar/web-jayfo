@@ -1,5 +1,43 @@
 ---
 
+id_conferencepaper_chi16_login:
+  pubnum: C.61
+  authors:
+    - id_author_zhang_xiaoyi
+    - id_author_pina_laura
+    - id_author_fogarty_james
+  title: 'Examining Unlock Journaling with Diaries and Reminders for In Situ Self-Report in Health and Wellness'
+  conference: id_conference_chi_2016
+  localthumb: chi2016_login.png
+  localpdf: chi2016_login.pdf
+
+id_conferencepaper_chi16_food4thought:
+  pubnum: C.60
+  authors:
+    - id_author_epstein_daniel
+    - id_author_cordeiro_felicia
+    - id_author_hsieh_gary
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'Crumbs: Lightweight Daily Food Challenges to Promote Engagement and Mindfulness'
+  conference: id_conference_chi_2016
+  localthumb: chi2016_food4thought.png
+  localpdf: chi2016_food4thought.pdf
+
+id_conferencepaper_chi16_abandonment:
+  pubnum: C.59
+  authors:
+    - id_author_epstein_daniel
+    - id_author_caraway_monica
+    - id_author_johnston_chuck
+    - id_author_ping_an
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'Beyond Abandonment to Next Steps: Understanding and Designing for Life after Personal Informatics Tool Use'
+  conference: id_conference_chi_2016
+  localthumb: chi2016_abandonment.png
+  localpdf: chi2016_abandonment.pdf
+
 id_conferencepaper_cscw2016:
   pubnum: C.58
   authors:
