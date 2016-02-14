@@ -63,6 +63,8 @@ id_conferencepaper_uist2015:
     - id_author_gollakota_shyamnath
   title: 'Leveraging Dual-Observable Input for Fine-Grained Thumb Interaction Using Forearm EMG'
   conference: id_conference_uist_2015
+  pages: 523-528
+  officialurl: http://dx.doi.org/10.1145/2807442.2807506
   localthumb: uist2015.png
   localpdf: uist2015.pdf
 
