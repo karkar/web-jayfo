@@ -66,6 +66,13 @@ class TestConferencePapers(unittest.TestCase):
                 '{} references localthumb {} not found in publications/'.format(id_conferencepaper, file_path)
             )
 
+            file_name = os.path.basename(file_path)
+            self.assertRegexpMatches(
+                file_name,
+                '^[a-z0-9\-\.]*$',
+                '{} file name contains illegal characters'.format(id_conferencepaper)
+            )
+
             # Papers may have a PDF
             if 'localpdf' in conferencepaper:
                 file_path = conferencepaper['localpdf']
@@ -74,6 +81,14 @@ class TestConferencePapers(unittest.TestCase):
                     '{} references localpdf {} not found in publications/'.format(id_conferencepaper, file_path)
                 )
 
+                file_name = os.path.basename(file_path)
+                self.assertRegexpMatches(
+                    file_name,
+                    '^[a-z0-9\-\.]*$',
+                    '{} file name contains illegal characters'.format(id_conferencepaper)
+                )
+
+
             # Papers may have a video
             if 'localvideo' in conferencepaper:
                 file_path = conferencepaper['localvideo']
@@ -81,3 +96,11 @@ class TestConferencePapers(unittest.TestCase):
                     os.path.isfile('publications/{}'.format(file_path)),
                     '{} references localvideo {} not found in publications/'.format(id_conferencepaper, file_path)
                 )
+
+                file_name = os.path.basename(file_path)
+                self.assertRegexpMatches(
+                    file_name,
+                    '^[a-z0-9\-\.]*$',
+                    '{} file name contains illegal characters'.format(id_conferencepaper)
+                )
+

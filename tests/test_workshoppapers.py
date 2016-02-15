@@ -61,3 +61,10 @@ class TestWorkshopPapers(unittest.TestCase):
                     os.path.isfile('publications/{}'.format(file_path)),
                     '{} references localpdf {} not found in publications/'.format(id_workshoppaper, file_path)
                 )
+
+                file_name = os.path.basename(file_path)
+                self.assertRegexpMatches(
+                    file_name,
+                    '^[a-z0-9\-\.]*$',
+                    '{} file name contains illegal characters'.format(id_workshoppaper)
+                )
