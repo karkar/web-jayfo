@@ -8,6 +8,7 @@ id_conferencepaper_chi16_login:
     - id_author_fogarty_james
   title: 'Examining Unlock Journaling with Diaries and Reminders for In Situ Self-Report in Health and Wellness'
   conference: id_conference_chi_2016
+  officialurl: http://dx.doi.org/10.1145/2858036.2858360
   localthumb: chi2016-login.png
   localpdf: chi2016-login.pdf
 
@@ -21,6 +22,7 @@ id_conferencepaper_chi16_food4thought:
     - id_author_munson_sean
   title: 'Crumbs: Lightweight Daily Food Challenges to Promote Engagement and Mindfulness'
   conference: id_conference_chi_2016
+  officialurl: http://dx.doi.org/10.1145/2858036.2858044
   localthumb: chi2016-food4thought.png
   localpdf: chi2016-food4thought.pdf
 
@@ -35,6 +37,7 @@ id_conferencepaper_chi16_abandonment:
     - id_author_munson_sean
   title: 'Beyond Abandonment to Next Steps: Understanding and Designing for Life after Personal Informatics Tool Use'
   conference: id_conference_chi_2016
+  officialurl: http://dx.doi.org/10.1145/2858036.2858045
   localthumb: chi2016-abandonment.png
   localpdf: chi2016-abandonment.pdf
 
@@ -50,6 +53,7 @@ id_conferencepaper_cscw2016:
     - id_author_munson_sean
   title: 'Boundary Negotiating Artifacts in Personal Informatics: Patient-Provider Collaboration with Patient-Generated Data'
   conference: id_conference_cscw_2016
+  officialurl: http://dx.doi.org/10.1145/2818048.2819926
   localthumb: cscw2016.png
   localpdf: cscw2016.pdf
 
