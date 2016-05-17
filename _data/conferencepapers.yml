@@ -8,8 +8,8 @@ id_conferencepaper_chi16_login:
     - id_author_fogarty_james
   title: 'Examining Unlock Journaling with Diaries and Reminders for In Situ Self-Report in Health and Wellness'
   conference: id_conference_chi_2016
-  localthumb: chi2016_login.png
-  localpdf: chi2016_login.pdf
+  localthumb: chi2016-login.png
+  localpdf: chi2016-login.pdf
 
 id_conferencepaper_chi16_food4thought:
   pubnum: C.60
@@ -21,8 +21,8 @@ id_conferencepaper_chi16_food4thought:
     - id_author_munson_sean
   title: 'Crumbs: Lightweight Daily Food Challenges to Promote Engagement and Mindfulness'
   conference: id_conference_chi_2016
-  localthumb: chi2016_food4thought.png
-  localpdf: chi2016_food4thought.pdf
+  localthumb: chi2016-food4thought.png
+  localpdf: chi2016-food4thought.pdf
 
 id_conferencepaper_chi16_abandonment:
   pubnum: C.59
@@ -35,8 +35,8 @@ id_conferencepaper_chi16_abandonment:
     - id_author_munson_sean
   title: 'Beyond Abandonment to Next Steps: Understanding and Designing for Life after Personal Informatics Tool Use'
   conference: id_conference_chi_2016
-  localthumb: chi2016_abandonment.png
-  localpdf: chi2016_abandonment.pdf
+  localthumb: chi2016-abandonment.png
+  localpdf: chi2016-abandonment.pdf
 
 id_conferencepaper_cscw2016:
   pubnum: C.58
@@ -63,6 +63,8 @@ id_conferencepaper_uist2015:
     - id_author_gollakota_shyamnath
   title: 'Leveraging Dual-Observable Input for Fine-Grained Thumb Interaction Using Forearm EMG'
   conference: id_conference_uist_2015
+  pages: 523-528
+  officialurl: http://dx.doi.org/10.1145/2807442.2807506
   localthumb: uist2015.png
   localpdf: uist2015.pdf
 
