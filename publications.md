@@ -15,7 +15,7 @@ title: Publications
           </div>
           <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
             {% if paper.officialurl %}
-              <a href="{{ paper.officialurl }}">official&nbsp;PDF</a>
+              <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
             {% endif %}
           </div>
         </div>
@@ -26,11 +26,11 @@ title: Publications
     <div class="publicationcontent">
       <div class="publicationlinks hidden-xs hidden-sm">
           {% if paper.localpdf %}
-            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;PDF</a>
+            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
             <br>
           {% endif %}
           {% if paper.officialurl %}
-            <a href="{{ paper.officialurl }}">official&nbsp;PDF</a>
+            <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
             <br>
           {% endif %}
           &nbsp;
@@ -89,7 +89,7 @@ title: Publications
         [{{ paper.pubnum }}]
             </div>
             <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
-                <a href="{{ paper.officialurl }}">official&nbsp;PDF</a>
+                <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
             </div>
         </div>
       </div>
@@ -99,11 +99,11 @@ title: Publications
     <div class="publicationcontent">
       <div class="publicationlinks hidden-xs hidden-sm">
           {% if paper.localpdf %}
-            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;PDF</a>
+            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
             <br>
           {% endif %}
           {% if paper.officialurl %}
-            <a href="{{ paper.officialurl }}">official&nbsp;PDF</a>
+            <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
             <br>
           {% endif %}
           &nbsp;
@@ -150,7 +150,7 @@ title: Publications
         [{{ paper.pubnum }}]
             </div>
             <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
-                <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;PDF</a>
+                <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
             </div>
         </div>
       </div>
@@ -160,11 +160,11 @@ title: Publications
     <div class="publicationcontent">
       <div class="publicationlinks hidden-xs hidden-sm">
           {% if paper.localpdf %}
-            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;PDF</a>
+            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
             <br>
           {% endif %}
           {% if paper.officialurl %}
-            <a href="{{ paper.officialurl }}">official&nbsp;PDF</a>
+            <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
             <br>
           {% endif %}
       </div>
