@@ -1,6 +1,18 @@
 ---
 
-id_conferencepaper_chi16_login:
+id_conferencepaper_ubicomp2016:
+  pubnum: C.62
+  authors:
+    - id_author_epstein_daniel
+    - id_author_kang_jennifer
+    - id_author_pina_laura
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'Reconsidering the Device in the Drawer: Lapses as a Design Opportunity in Personal Informatics'
+  conference: id_conference_ubicomp_2016
+  localthumb: ubicomp2016.png
+
+id_conferencepaper_chi2016_login:
   pubnum: C.61
   authors:
     - id_author_zhang_xiaoyi
@@ -13,7 +25,7 @@ id_conferencepaper_chi16_login:
   localthumb: chi2016-login.png
   localpdf: chi2016-login.pdf
 
-id_conferencepaper_chi16_food4thought:
+id_conferencepaper_chi2016_food4thought:
   pubnum: C.60
   authors:
     - id_author_epstein_daniel
@@ -28,7 +40,7 @@ id_conferencepaper_chi16_food4thought:
   localthumb: chi2016-food4thought.png
   localpdf: chi2016-food4thought.pdf
 
-id_conferencepaper_chi16_abandonment:
+id_conferencepaper_chi2016_abandonment:
   pubnum: C.59
   authors:
     - id_author_epstein_daniel

@@ -201,6 +201,11 @@ id_conference_ubicomp_2015:
   shortname: UbiComp 2015
   year: 2015
 
+id_conference_ubicomp_2016:
+  longname: *ubicomp
+  shortname: UbiComp 2016
+  year: 2016
+
 id_conference_ubicomp_2009:
   longname: *ubicomp_premerger
   shortname: UbiComp 2009
