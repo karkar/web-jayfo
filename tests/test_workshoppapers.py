@@ -30,6 +30,12 @@ class TestWorkshopPapers(unittest.TestCase):
         Confirm all authors referenced by a paper actually exist.
         """
         for id_workshoppaper, workshoppaper in self.data['workshoppapers'].items():
+            self.assertIn(
+                'authors',
+                workshoppaper,
+                '{} missing authors'.format(id_workshoppaper)
+            )
+
             for id_author in workshoppaper['authors']:
                 self.assertIn(
                     id_author,
