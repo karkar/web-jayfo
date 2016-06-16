@@ -1,7 +1,53 @@
 ---
 
-id_journalpaper_jamia2015:
-  pubnum: J.06
+id_journalpaper_olderpeoplenursing2016:
+  pubnum: J.09
+  authors:
+    - id_author_chung_jane
+    - id_author_demiris_george
+    - id_author_thompson_hilaire
+    - id_author_chen_ke-yu
+    - id_author_burr_robert
+    - id_author_patel_shwetak
+    - id_author_fogarty_james
+  title: 'Feasibility Testing of a Home-Based Sensor System to Monitor Mobility and Daily Activities in Korean American Older Adults'
+  journal: id_journal_olderpeoplenursing
+  year: 2016
+#  volume: 23
+#  issue: 3
+  pages: In Press
+#  officialurl: http://dx.doi.org/10.1093/jamia/ocv150
+  localthumb: olderpeoplenursing2016.png
+#  localpdf: olderpeoplenursing2016.pdf
+
+id_journalpaper_pervasivecomputing2016:
+  pubnum: J.08
+  authors:
+    - id_author_choe_eun_kyoung
+    - id_author_abdullah_saeed
+    - id_author_rabbi_mashfiqui
+    - id_author_thomaz_edison
+    - id_author_epstein_daniel
+    - id_author_kay_matthew
+    - id_author_cordeiro_felicia
+    - id_author_abowd_gregory
+    - id_author_choudhury_tanzeem
+    - id_author_fogarty_james
+    - id_author_lee_bongshin
+    - id_author_matthews_mark
+    - id_author_kientz_julie
+  title: 'Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications'
+  journal: id_journal_pervasivecomputing
+  year: 2016
+#  volume: 23
+#  issue: 3
+  pages: In Press
+#  officialurl: http://dx.doi.org/10.1093/jamia/ocv150
+  localthumb: pervasivecomputing2016.png
+#  localpdf: pervasivecomputing2016.pdf
+
+id_journalpaper_jamia2016:
+  pubnum: J.07
   authors:
     - id_author_karkar_ravi
     - id_author_zia_jasmine
@@ -19,6 +65,27 @@ id_journalpaper_jamia2015:
   officialurl: http://dx.doi.org/10.1093/jamia/ocv150
   localthumb: jamia2016.png
 #  localpdf: jamia2016.pdf
+
+id_journalpaper_ctg2016:
+  pubnum: J.06
+  authors:
+    - id_author_zia_jasmine
+    - id_author_schroeder_jessica
+    - id_author_munson_sean
+    - id_author_fogarty_james
+    - id_author_nguyen_linda
+    - id_author_barney_pamela
+    - id_author_heitkemper_margaret
+    - id_author_ladabaum_uri
+  title: 'Feasibility and Usability Pilot Study of a Novel Irritable Bowel Syndrome Food and Gastrointestinal Symptom Journal Smartphone App'
+  journal: id_journal_ctg
+  year: 2016
+  volume: 7
+  issue: 3
+  pages: e147
+  officialurl: http://dx.doi.org/10.1038%2Fctg.2016.9
+  localthumb: ctg2016.png
+#  localpdf: ctg2016.pdf
 
 id_journalpaper_ip2012:
   pubnum: J.05

@@ -71,7 +71,7 @@ title: Publications
             Iss.&nbsp;{{ paper.issue }},
           {% endif %}
           {% if paper.pages %}
-            pp.&nbsp;{{ paper.pages }}.
+            {{ paper.pages }}.
           {% endif %}
       </div>
     </div>
@@ -132,14 +132,14 @@ title: Publications
           {% endif %}
           <i>{{ conference.longname }}</i>{% if conference.shortname %} <span class="text-nowrap">({{ conference.shortname }})</span>{% endif %}.
           {% if paper.pages %}
-          <span class="text-nowrap">pp.&nbsp;{{ paper.pages }}</span>.
+          <span class="text-nowrap">{{ paper.pages }}</span>.
           {% endif %}
       </div>
     </div>
   </div>
 {% endfor %}
 
-## Workshop Papers
+## Workshop Presentations and Lightly Refereed Abstracts
 {% for item_paper in site.data.workshoppapers %}
   {% assign paper = item_paper[1] %}
   <div class="row">
@@ -183,7 +183,7 @@ title: Publications
           <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
           <i>{{ workshop.longname }}</i>{% if workshop.shortname %} <span class="text-nowrap">({{ workshop.shortname }})</span>{% endif %}.
           {% if paper.pages %}
-            pp.&nbsp;{{ paper.pages }}.
+            {{ paper.pages }}.
           {% endif %}
       </div>
     </div>
