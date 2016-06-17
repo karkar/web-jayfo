@@ -16,6 +16,8 @@ title: Publications
           <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
             {% if paper.officialurl %}
               <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
+            {% elsif paper.localpdf %}
+              <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
             {% endif %}
           </div>
         </div>
@@ -89,7 +91,11 @@ title: Publications
         [{{ paper.pubnum }}]
             </div>
             <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
+              {% if paper.officialurl %}
                 <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
+              {% elsif paper.localpdf %}
+                <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
+              {% endif %}
             </div>
         </div>
       </div>
@@ -150,7 +156,11 @@ title: Publications
         [{{ paper.pubnum }}]
             </div>
             <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
+              {% if paper.officialurl %}
+                <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
+              {% elsif paper.localpdf %}
                 <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
+              {% endif %}
             </div>
         </div>
       </div>
