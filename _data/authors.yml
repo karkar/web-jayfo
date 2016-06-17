@@ -5,6 +5,11 @@
 #     - O.
 ---
 
+id_author_abdullah_saeed:
+  name:
+    - Abdullah
+    - Saeed
+
 id_author_abowd_gregory:
   name:
     - Abowd
@@ -83,6 +88,16 @@ id_author_barbero_janos:
     - Barbero
     - Janos
 
+id_author_barney_pamela:
+  name:
+    - Barney
+    - Pamela
+
+id_author_bhattacharya_arpita:
+  name:
+    - Bhattacharya
+    - Arpita
+
 id_author_borriello_gaetano:
   name:
     - Borriello
@@ -97,6 +112,11 @@ id_author_bragin_tanya:
   name:
     - Bragin
     - Tanya
+
+id_author_burr_robert:
+  name:
+    - Burr
+    - Robert
 
 id_author_campbell_taj:
   name:
@@ -129,10 +149,25 @@ id_author_cherry_erin:
     - Cherry
     - Erin
 
+id_author_choe_eun_kyoung:
+  name:
+    - Choe
+    - Eun Kyoung
+
+id_author_choudhury_tanzeem:
+  name:
+    - Choudhury
+    - Tanzeem
+
 id_author_christensen_jim:
   name:
     - Christensen
     - Jim
+
+id_author_clasen_peter:
+  name:
+    - Clasen
+    - Peter
 
 id_author_cole_allison:
   name:
@@ -144,6 +179,11 @@ id_author_consolvo_sunny:
     - Consolvo
     - Sunny
 
+id_author_cook_jonathan:
+  name:
+    - Cook
+    - Jonathan
+
 id_author_cooper_seth:
   name:
     - Cooper
@@ -154,15 +194,30 @@ id_author_cordeiro_felicia:
     - Cordeiro
     - Felicia
 
+id_author_chen_ke-yu:
+  name:
+    - Chung
+    - Ke-Yu
+
 id_author_chung_chia-fang:
   name:
     - Chung
     - Chia-Fang
 
+id_author_chung_jane:
+  name:
+    - Chung
+    - Jane
+
 id_author_dabbish_laura:
   name:
     - Dabbish
     - Laura
+
+id_author_demiris_george:
+  name:
+    - Demiris
+    - George
 
 id_author_dew_kristin:
   name:
@@ -268,20 +323,30 @@ id_author_harrison_beverly:
     - Harrison
     - Beverly
 
-id_author_hipke_kyle:
-  name:
-    - Hipke
-    - Kyle
-
 id_author_haggerty_conor:
   name:
     - Haggerty
     - Conor
 
+id_author_heitkemper_margaret:
+  name:
+    - Heitkemper
+    - Margaret
+
+id_author_hipke_kyle:
+  name:
+    - Hipke
+    - Kyle
+
 id_author_hoffmann_raphael:
   name:
     - Hoffmann
     - Raphael
+
+id_author_hofmeester_kay:
+  name:
+    - Hofmeester
+    - Kay
 
 id_author_hong_jason:
   name:
@@ -310,6 +375,12 @@ id_author_isenhour_philip:
     - Isenhour
     - Philip
 
+id_author_jacobson_bradley:
+  name:
+    - Jacobson
+    - Bradley
+    - H.
+
 id_author_jagannathan_arvind:
   name:
     - Jagannathan
@@ -321,6 +392,11 @@ id_author_johnston_chuck:
     - Johnston
     - Chuck
 
+id_author_kang_jennifer:
+  name:
+    - Kang
+    - Jennifer
+
 id_author_kapoor_ashish:
   name:
     - Kapoor
@@ -330,6 +406,11 @@ id_author_karkar_ravi:
   name:
     - Karkar
     - Ravi
+
+id_author_kay_matthew:
+  name:
+    - Kay
+    - Matthew
 
 id_author_keyani_pedram:
   name:
@@ -378,6 +459,11 @@ id_author_kriplean_travis:
     - Kriplean
     - Travis
 
+id_author_ladabaum_uri:
+  name:
+    - Ladabaum
+    - Uri
+
 id_author_lai_jennifer:
   name:
     - Lai
@@ -403,6 +489,11 @@ id_author_larson_eric:
   name:
     - Larson
     - Eric
+
+id_author_lee_bongshin:
+  name:
+    - Lee
+    - Bongshin
 
 id_author_lee_johnny:
   name:
@@ -451,6 +542,11 @@ id_author_makedon_ilya:
     - Makedon
     - Ilya
 
+id_author_matthews_mark:
+  name:
+    - Matthews
+    - Mark
+
 id_author_mishra_sonali:
   name:
     - Mishra
@@ -478,6 +574,11 @@ id_author_ngo_brian:
   name:
     - Ngo
     - Brian
+
+id_author_nguyen_linda:
+  name:
+    - Nguyen
+    - Linda
 
 id_author_patel_kayur:
   name:
@@ -510,6 +611,11 @@ id_author_popovic_zoran:
     - Popović
     - Zoran
 
+id_author_rabbi_mashfiqui:
+  name:
+    - Rabbi
+    - Mashfiqui
+
 id_author_roesner_franzi:
   name:
     - Roesner
@@ -535,6 +641,17 @@ id_author_schafer_wendy:
   name:
     - Schafer
     - Wendy
+
+id_author_schenk_jeanette:
+  name:
+    - Schenk
+    - Jeanette
+    - M.
+
+id_author_schroeder_jessica:
+  name:
+    - Schroeder
+    - Jessica
 
 id_author_skinner_michael:
   name:
@@ -568,6 +685,11 @@ id_author_thomaz_edison:
     - Thomaz
     - Edison
 
+id_author_thompson_hilaire:
+  name:
+    - Thompson
+    - Hilaire
+
 id_author_toomim_michael:
   name:
     - Toomim
@@ -587,6 +709,11 @@ id_author_vilardaga_roger:
   name:
     - Vilardaga
     - Roger
+
+id_author_villatte_jennifer:
+  name:
+    - Villatte
+    - Jennifer
 
 id_author_welbourne_evan:
   name:

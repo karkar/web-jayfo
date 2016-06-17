@@ -1,24 +1,19 @@
 ---
 
-id_workshop_ubicomp2015_quantified_self:
-  longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on New Frontiers of Quantified Self: Finding New Ways for Engaging Users in Collecting and Using Personal Data'
-  shortname: UbiComp 2015
-  year: 2015
+id_workshop_acbs2016:
+  longname: 'Presented at the Association for Contextual Behavioral Science'
+  shortname: ACBS 2016
+  year: 2016
+
+id_workshop_chi2016_wish:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Interactive Systems in Healthcare'
+  shortname: CHI 2016
+  year: 2016
 
 id_workshop_chi2015_personal_informatics:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Beyond Personal Informatics: Designing for Experiences with Data'
   shortname: CHI 2015
   year: 2015
-
-id_workshop_ubicomp2014_personal_informatics:
-  longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on Disasters in Personal Informatics: The Unpublished Stories of Failure and Lessons Learned'
-  shortname: UbiComp 2014
-  year: 2014
-
-id_workshop_hcic2014:
-  longname: 'Presented at the Human Computer Interaction Consortium Annual Conference'
-  shortname: HCIC 2014
-  year: 2014
 
 id_workshop_chi2013_personal_informatics:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Personal Informatics in the Wild: Hacking Habits for Health & Happiness'
@@ -35,28 +30,14 @@ id_workshop_chi2012_personal_informatics:
   shortname: CHI 2012
   year: 2012
 
-id_workshop_nsf2011_pecs:
-  longname: 'Presented at the NSF Workshop on Pervasive Computing at Scale'
-  year: 2011
-
-id_workshop_iui2011_smart_objects:
-  longname: 'Presented at the International Conference on Intelligent User Interfaces Workshop on Interacting with Smart Objects'
-  shortname: IUI 2011
-  year: 2011
-
 id_workshop_chi2010_floss:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on the Future of FLOSS in CHI Research and Practice'
   shortname: CHI 2010
   year: 2010
 
-id_workshop_nips2009_interactive_machine_learning:
-  longname: 'Presented at the Conference on Neural Information Processing Systems Workshop on Analysis and Design of Algorithms for Interactive Machine Learning'
-  shortname: NIPS 2009
-  year: 2009
-
-id_workshop_ijcai2009_user_contributed_knowledge:
-  longname: 'Presented at the International Joint Conferences on Artificial Intelligence Workshop on User-Contributed Knowledge and Artificial Intelligence: An Evolving Synergy'
-  shortname: IJCAI 2009
+id_workshop_chi2009_end_user_programming:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on End User Programming for the Web'
+  shortname: CHI 2009
   year: 2009
 
 id_workshop_chi2009_shared_datasets:
@@ -66,11 +47,6 @@ id_workshop_chi2009_shared_datasets:
 
 id_workshop_chi2009_sustainability:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Defining the Role of HCI in the Challenges of Sustainability'
-  shortname: CHI 2009
-  year: 2009
-
-id_workshop_chi2009_end_user_programming:
-  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on End User Programming for the Web'
   shortname: CHI 2009
   year: 2009
 
@@ -84,13 +60,80 @@ id_workshop_chi2006_mobile_social_software:
   shortname: CHI 2006
   year: 2006
 
-id_workshop_uist2004_doctoral_symposium:
-  longname: 'Presented at the ACM Symposium on User Interface Software and Technology Doctoral Symposium'
-  shortname: UIST 2004
+id_workshop_chi2004_forecasting_presence:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Forecasting Presence and Availability'
+  shortname: CHI 2004
   year: 2004
+
+id_workshop_fnm2016:
+  longname: 'Presented at the Federation of Neurogastroenterology & Motility'
+  shortname: FNM 2016
+  year: 2016
+
+id_workshop_hcic2014:
+  longname: 'Presented at the Human Computer Interaction Consortium Annual Conference'
+  shortname: HCIC 2014
+  year: 2014
 
 id_workshop_ibm2004_hci_symposium:
   longname: 'Presented at the IBM Research Human Computer Interaction Symposium'
+  year: 2004
+
+id_workshop_ijcai2009_user_contributed_knowledge:
+  longname: 'Presented at the International Joint Conferences on Artificial Intelligence Workshop on User-Contributed Knowledge and Artificial Intelligence: An Evolving Synergy'
+  shortname: IJCAI 2009
+  year: 2009
+
+id_workshop_isrii2016:
+  longname: 'Presented at the International Society for Research on Internet Interventions'
+  shortname: ISRII 2016
+  year: 2016
+
+id_workshop_iui2011_smart_objects:
+  longname: 'Presented at the International Conference on Intelligent User Interfaces Workshop on Interacting with Smart Objects'
+  shortname: IUI 2011
+  year: 2011
+
+id_workshop_kavli2013:
+  longname: 'Presented at the National Academy of Sciences Kavli Frontiers of Science U.S. Symposium'
+  year: 2013
+
+id_workshop_nips2009_interactive_machine_learning:
+  longname: 'Presented at the Conference on Neural Information Processing Systems Workshop on Analysis and Design of Algorithms for Interactive Machine Learning'
+  shortname: NIPS 2009
+  year: 2009
+
+id_workshop_nsf2015_sdx:
+  longname: 'Presented at the NSF Workshop on Small Data Experimentation (sdX): Opportunities, Challenges, and Infrastructure'
+  year: 2015
+
+id_workshop_nsf2011_pecs:
+  longname: 'Presented at the NSF Workshop on Pervasive Computing at Scale'
+  year: 2011
+
+id_workshop_pervasive2004_toolkits:
+  longname: 'Presented at the International Conference Pervasive Computing Workshop on Toolkit Support for Interaction in the Physical World'
+  shortname: Pervasive 2004
+  year: 2004
+
+id_workshop_ubicomp2015_quantified_self:
+  longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on New Frontiers of Quantified Self: Finding New Ways for Engaging Users in Collecting and Using Personal Data'
+  shortname: UbiComp 2015
+  year: 2015
+
+id_workshop_ubicomp2014_personal_informatics:
+  longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on Disasters in Personal Informatics: The Unpublished Stories of Failure and Lessons Learned'
+  shortname: UbiComp 2014
+  year: 2014
+
+id_workshop_ubicomp2007_boundary_negotiation:
+  longname: 'Presented at the International Conference on Ubiquitous Computing Workshop on Privacy as Boundary Negotiation'
+  shortname: UbiComp 2003
+  year: 2003
+
+id_workshop_uist2004_doctoral_symposium:
+  longname: 'Presented at the ACM Symposium on User Interface Software and Technology Doctoral Symposium'
+  shortname: UIST 2004
   year: 2004
 
 id_workshop_ubicomp2004_doctoral_symposium:
@@ -98,17 +141,3 @@ id_workshop_ubicomp2004_doctoral_symposium:
   shortname: UbiComp 2004
   year: 2004
 
-id_workshop_chi2004_forecasting_presence:
-  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Forecasting Presence and Availability'
-  shortname: CHI 2004
-  year: 2004
-
-id_workshop_pervasive2004_toolkits:
-  longname: 'Presented at the International Conference Pervasive Computing Workshop on Toolkit Support for Interaction in the Physical World'
-  shortname: Pervasive 2004
-  year: 2004
-
-id_workshop_ubicomp2007_boundary_negotiation:
-  longname: 'Presented at the International Conference on Ubiquitous Computing Workshop on Privacy as Boundary Negotiation'
-  shortname: UbiComp 2003
-  year: 2003
