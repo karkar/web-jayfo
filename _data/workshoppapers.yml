@@ -118,7 +118,7 @@ id_workshoppaper_sdx2015:
     - id_author_vilardaga_roger
     - id_author_zia_jasmine
   title: 'Personal Experimentation for Gastrointestinal Health Triggers'
-  workshop: id_workshop_nsf2015_sdx
+  workshop: id_workshop_sdx2015
   localpdf: workshop-nsfsdx2015.pdf
 
 id_workshoppaper_chi2015_personalinformatics:
