@@ -103,10 +103,6 @@ id_workshop_nips2009_interactive_machine_learning:
   shortname: NIPS 2009
   year: 2009
 
-id_workshop_nsf2015_sdx:
-  longname: 'Presented at the NSF Workshop on Small Data Experimentation (sdX): Opportunities, Challenges, and Infrastructure'
-  year: 2015
-
 id_workshop_nsf2011_pecs:
   longname: 'Presented at the NSF Workshop on Pervasive Computing at Scale'
   year: 2011
@@ -115,6 +111,10 @@ id_workshop_pervasive2004_toolkits:
   longname: 'Presented at the International Conference Pervasive Computing Workshop on Toolkit Support for Interaction in the Physical World'
   shortname: Pervasive 2004
   year: 2004
+
+id_workshop_sdx2015:
+  longname: 'Presented at the Workshop on Small Data Experimentation (sdX): Opportunities, Challenges, and Infrastructure'
+  year: 2015
 
 id_workshop_ubicomp2015_quantified_self:
   longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on New Frontiers of Quantified Self: Finding New Ways for Engaging Users in Collecting and Using Personal Data'

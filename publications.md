@@ -38,11 +38,15 @@ title: Publications
           &nbsp;
       </div>
       <div class="publicationimage">
-        {% if paper.localpdf %}
+        {% if paper.officialurl %}
+          <a href="{{ paper.officialurl }}">
+        {% elsif paper.localpdf %}
           <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">
         {% endif %}
         <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}">
-        {% if paper.localpdf %}
+        {% if paper.officialurl %}
+          </a>
+        {% elsif paper.localpdf %}
           </a>
         {% endif %}
       </div>
@@ -57,10 +61,10 @@ title: Publications
             {{ author['name'][0] }}{% if forloop.last %}.{% else %},{% endif %}
           {% endfor %}
           ({{ paper.year }}).
-          {% if paper.localpdf %}
-            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
-          {% elsif paper.officialurl %}
+          {% if paper.officialurl %}
             <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
+          {% elsif paper.localpdf %}
+            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
           {% else %}
             {{ paper.title }}.
           {% endif %}
@@ -115,9 +119,17 @@ title: Publications
           &nbsp;
       </div>
       <div class="publicationimage">
-        <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">
-          <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}">
-        </a>
+        {% if paper.officialurl %}
+          <a href="{{ paper.officialurl }}">
+        {% elsif paper.localpdf %}
+          <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">
+        {% endif %}
+        <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}">
+        {% if paper.officialurl %}
+          </a>
+        {% elsif paper.localpdf %}
+          </a>
+        {% endif %}
       </div>
       <div class="publicationcitation">
           {% assign conference = site.data.conferences[paper.conference] %}
@@ -131,7 +143,9 @@ title: Publications
             {{ author['name'][0] }}{% if forloop.last %}.{% else %},{% endif %}
           {% endfor %}
           ({{ conference.year }}).
-          {% if paper.localpdf %}
+          {% if paper.officialurl %}
+            <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
+          {% elsif paper.localpdf %}
             <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
           {% else %}
             {{ paper.title }}.
@@ -190,7 +204,13 @@ title: Publications
             {{ author['name'][0] }}{% if forloop.last %}.{% else %},{% endif %}
           {% endfor %}
           ({{ workshop.year }}).
-          <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
+          {% if paper.officialurl %}
+            <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
+          {% elsif paper.localpdf %}
+            <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
+          {% else %}
+            {{ paper.title }}.
+          {% endif %}
           <i>{{ workshop.longname }}</i>{% if workshop.shortname %} <span class="text-nowrap">({{ workshop.shortname }})</span>{% endif %}.
           {% if paper.pages %}
             {{ paper.pages }}.
