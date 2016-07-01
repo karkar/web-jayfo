@@ -11,6 +11,7 @@ id_conferencepaper_ubicomp2016:
   title: 'Reconsidering the Device in the Drawer: Lapses as a Design Opportunity in Personal Informatics'
   conference: id_conference_ubicomp_2016
   localthumb: ubicomp2016.png
+  localpdf: ubicomp2016.pdf
 
 id_conferencepaper_chi2016_login:
   pubnum: C.61
