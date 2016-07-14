@@ -370,6 +370,12 @@ id_author_hudson_scott:
     - Scott
     - E.
 
+id_author_ioannou_george:
+  name:
+    - Ioannou
+    - George
+    - N.
+
 id_author_isenhour_philip:
   name:
     - Isenhour
@@ -449,6 +455,11 @@ id_author_ko_andrew:
     - Ko
     - Andrew
     - J.
+
+id_author_kocielnik_rafal:
+  name:
+    - Kocielnik
+    - Rafal
 
 id_author_kohno_tadayoshi:
   name:
