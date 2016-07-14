@@ -116,6 +116,11 @@ id_workshop_sdx2015:
   longname: 'Presented at the Workshop on Small Data Experimentation (sdX): Opportunities, Challenges, and Infrastructure'
   year: 2015
 
+id_workshop_ubicomp2016_mental_health:
+  longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on Mental Health and Well-Being: Sensing and Intervention'
+  shortname: UbiComp 2016
+  year: 2016
+
 id_workshop_ubicomp2015_quantified_self:
   longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on New Frontiers of Quantified Self: Finding New Ways for Engaging Users in Collecting and Using Personal Data'
   shortname: UbiComp 2015
