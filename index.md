@@ -77,8 +77,6 @@ I pursue this work together with an outstanding group of collaborators and amazi
 
 * [Daniel Epstein](http://www.depstein.net/)
 * [Ravi Karkar](http://ravikarkar.com/)
-* [Katerena Kuksenok](https://katerena.github.io)
-* [Greg Nelson](http://www.greglnelson.info/)
 * [Laura Pina](http://homes.cs.washington.edu/~lpina/)
 * [Anne Ross](https://homes.cs.washington.edu/~ansross/)
 * [Jessie Schroeder](https://homes.cs.washington.edu/~jesscs/)
