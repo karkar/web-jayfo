@@ -5,6 +5,9 @@ import sys
 import yaml
 
 
+VERBOSE = False
+
+
 def check_result(result, description):
     if result.failed:
         print('========================================')
@@ -23,11 +26,18 @@ def check_result(result, description):
 
 
 @invoke.task
+def verbose():
+    global VERBOSE
+
+    VERBOSE = True
+
+
+@invoke.task
 def update_dependencies():
     # Parameters to keep everything silent
     params_silent = {
         'encoding': sys.stdout.encoding,
-        'hide': 'both',
+        'hide': 'both' if VERBOSE is False else None,
         'warn': True
     }
 
@@ -45,7 +55,7 @@ def update_dependencies():
     print('Checking Python dependencies')
 
     # Ensure we have a current version of pip, as needed by pip-tools
-    pip_version_desired = compile_config_yaml['config']['pip_version']
+    pip_version_desired = compile_config_yaml['config']['local']['python']['pip_version']
     result = invoke.run('pip --disable-pip-version-check show pip', **params_silent)
     check_result(result, 'check pip version')
 
@@ -72,7 +82,7 @@ def update_dependencies():
     print('Checking Ruby dependencies')
 
     # Check we have the correct Bundler version
-    bundler_version_desired = compile_config_yaml['config']['bundler_version']
+    bundler_version_desired = compile_config_yaml['config']['local']['ruby']['bundler_version']
 
     result = invoke.run('gem list -i bundler -v {}'.format(bundler_version_desired), **params_silent)
     # expected to fail if the desired version is not installed
@@ -95,7 +105,7 @@ def update_dependencies():
 @invoke.task(pre=[update_dependencies])
 def build_production():
     invoke.run(
-        'bundle exec jekyll build -t --config _config.yml,_config-build-production.yml',
+        'bundle exec jekyll build -t --config _config.yml,_config-production.yml',
         encoding=sys.stdout.encoding
     )
 
@@ -103,7 +113,7 @@ def build_production():
 @invoke.task(pre=[update_dependencies])
 def build_test():
     invoke.run(
-        'bundle exec jekyll build -t --config _config.yml,_config-build-test.yml',
+        'bundle exec jekyll build -t --config _config.yml,_config-test.yml',
         encoding=sys.stdout.encoding
     )
 
@@ -125,10 +135,19 @@ def compile_config():
             f.write(template.render(compile_config_yaml['config']))
 
 
+@invoke.task()
+def compile_requirements():
+    # Compile the requirements file
+    invoke.run(
+        'pip-compile --upgrade --output-file requirements3.txt requirements3.in',
+        encoding=sys.stdout.encoding
+    )
+
+
 @invoke.task(pre=[update_dependencies])
 def serve_production():
     invoke.run(
-        'bundle exec jekyll serve -t --config _config.yml,_config-serve-production.yml -H 0.0.0.0',
+        'bundle exec jekyll serve -t --config _config.yml,_config-production.yml -H 0.0.0.0',
         encoding=sys.stdout.encoding
     )
 
@@ -136,7 +155,7 @@ def serve_production():
 @invoke.task(pre=[update_dependencies])
 def serve_test():
     invoke.run(
-        'bundle exec jekyll serve -t --config _config.yml,_config-serve-test.yml --watch --force_polling',
+        'bundle exec jekyll serve -t --config _config.yml,_config-test.yml --watch --force_polling',
         encoding=sys.stdout.encoding
     )
 
