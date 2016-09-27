@@ -12,6 +12,8 @@ id_workshoppaper_ubicomp2016_mental_health:
     - id_author_zia_jasmine
   title: 'Toward a Portable, Self-Administered Critical Flicker Frequency Test'
   workshop: id_workshop_ubicomp2016_mental_health
+  pages: 1194-1199
+  officialurl: http://dx.doi.org/10.1145/2968219.2968307
   localpdf: workshop-ubicomp2016-mentalhealth.pdf
 
 id_workshoppaper_fnm2016:
