@@ -121,6 +121,11 @@ id_conference_cscw_2016:
   shortname: CSCW 2016
   year: 2016
 
+id_conference_cscw_2017:
+  longname: *cscw
+  shortname: CSCW 2017
+  year: 2017
+
 id_conference_cscw_2008:
   longname: *cscw
   shortname: CSCW 2008

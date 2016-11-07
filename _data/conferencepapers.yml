@@ -1,5 +1,19 @@
 ---
 
+id_conferencepaper_cscw2017-triggerVis:
+  pubnum: C.63
+  authors:
+    - id_author_schroeder_jessica
+    - id_author_hoffswell_jane
+    - id_author_chung_chia-fang
+    - id_author_fogarty_james
+    - id_author_munson_sean
+    - id_author_zia_jasmine
+  title: 'Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals'
+  conference: id_conference_cscw_2017
+  localthumb: cscw2017-triggerVis.png
+  localpdf: cscw2017-triggerVis.pdf
+
 id_conferencepaper_ubicomp2016:
   pubnum: C.62
   authors:
