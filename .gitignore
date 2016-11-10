@@ -18,6 +18,3 @@ node_modules
 
 # Any secrets
 secrets
-
-# Mac BS
-*.DS_Store
