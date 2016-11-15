@@ -670,6 +670,11 @@ id_author_schroeder_jessica:
     - Schroeder
     - Jessica
 
+id_author_sieng_sang:
+  name:
+    - Sien
+    - Sang-Wha
+
 id_author_skinner_michael:
   name:
     - Skinner
@@ -732,6 +737,10 @@ id_author_villatte_jennifer:
     - Villatte
     - Jennifer
 
+id_author_ward_teresa:
+  name:
+    - Ward
+    - Teresa
 id_author_welbourne_evan:
   name:
     - Welbourne
@@ -769,6 +778,11 @@ id_author_yang_jie:
     - Yang
     - Jie
 
+id_author_yip_jason:
+  name:
+    - Yip
+    - Jason
+    - C.
 id_author_zhang_xianhang:
   name:
     - Zhang
