@@ -1,27 +1,7 @@
 ---
 
-id_journalpaper_olderpeoplenursing2016:
+id_journalpaper_pervasivecomputing2017:
   pubnum: J.09
-  authors:
-    - id_author_chung_jane
-    - id_author_demiris_george
-    - id_author_thompson_hilaire
-    - id_author_chen_ke-yu
-    - id_author_burr_robert
-    - id_author_patel_shwetak
-    - id_author_fogarty_james
-  title: 'Feasibility Testing of a Home-Based Sensor System to Monitor Mobility and Daily Activities in Korean American Older Adults'
-  journal: id_journal_olderpeoplenursing
-  year: 2016
-#  volume: 23
-#  issue: 3
-  pages: In Press
-#  officialurl: http://dx.doi.org/10.1093/jamia/ocv150
-  localthumb: olderpeoplenursing2016.png
-#  localpdf: olderpeoplenursing2016.pdf
-
-id_journalpaper_pervasivecomputing2016:
-  pubnum: J.08
   authors:
     - id_author_choe_eun_kyoung
     - id_author_abdullah_saeed
@@ -38,13 +18,33 @@ id_journalpaper_pervasivecomputing2016:
     - id_author_kientz_julie
   title: 'Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications'
   journal: id_journal_pervasivecomputing
-  year: 2016
+  year: 2017
 #  volume: 23
 #  issue: 3
   pages: In Press
 #  officialurl: http://dx.doi.org/10.1093/jamia/ocv150
-  localthumb: pervasivecomputing2016.png
-#  localpdf: pervasivecomputing2016.pdf
+  localthumb: pervasivecomputing2017.png
+  localpdf: pervasivecomputing2017.pdf
+
+id_journalpaper_olderpeoplenursing2016:
+  pubnum: J.08
+  authors:
+    - id_author_chung_jane
+    - id_author_demiris_george
+    - id_author_thompson_hilaire
+    - id_author_chen_ke-yu
+    - id_author_burr_robert
+    - id_author_patel_shwetak
+    - id_author_fogarty_james
+  title: 'Feasibility Testing of a Home-Based Sensor System to Monitor Mobility and Daily Activities in Korean American Older Adults'
+  journal: id_journal_olderpeoplenursing
+  year: 2016
+  volume: 0
+#  issue: 3
+  pages: 1-12
+  officialurl: http://dx.doi.org/10.1111/opn.12127
+  localthumb: olderpeoplenursing2016.png
+  localpdf: olderpeoplenursing2016.pdf
 
 id_journalpaper_jamia2016:
   pubnum: J.07
