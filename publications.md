@@ -1,5 +1,5 @@
 ---
-layout: base/bar-sidebar-none
+layout: base/bar/bar-sidebar-none
 title: Publications
 ---
 
