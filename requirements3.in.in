@@ -4,6 +4,7 @@
 invoke=={{ local.python.invoke_version }}
 jinja2
 nose
+pillow
 pip-tools
 pyyaml
 {# This comment gives us a newline at the end of the generated file #}
