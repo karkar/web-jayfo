@@ -21,6 +21,11 @@ id_author_adar_eytan:
     - Adar
     - Eytan
 
+id_author_agapie_elena:
+  name:
+    - Agapie
+    - Elena
+
 id_author_amershi_saleema:
   name:
     - Amershi
@@ -139,6 +144,11 @@ id_author_caraway_monica:
     - Caraway
     - Monica
 
+id_author_caspi_anat:
+  name:
+    - Caspi
+    - Anat
+
 id_author_chalecki_jason:
   name:
     - Chalecki
@@ -214,6 +224,11 @@ id_author_dabbish_laura:
     - Dabbish
     - Laura
 
+id_author_davis_katie:
+  name:
+    - Davis
+    - Katie
+
 id_author_demiris_george:
   name:
     - Demiris
@@ -261,6 +276,12 @@ id_author_etzioni_oren:
   name:
     - Etzioni
     - Oren
+
+id_author_evans_abigail:
+  name:
+    - Evans
+    - Abigail
+    - C.
 
 id_author_everitt_katherine:
   name:
@@ -638,6 +659,12 @@ id_author_roesner_franzi:
     - Roesner
     - Franzi
 
+id_author_ross_anne:
+  name:
+    - Ross
+    - Anne
+    - Spencer
+
 id_author_rosson_mary_beth:
   name:
     - Rosson
@@ -670,6 +697,11 @@ id_author_schroeder_jessica:
     - Schroeder
     - Jessica
 
+id_author_scofield_jeffrey:
+  name:
+    - Schroeder
+    - Jessica
+
 id_author_sieng_sang:
   name:
     - Sien
@@ -689,6 +721,11 @@ id_author_steck_david:
   name:
     - Steck
     - David
+
+id_author_swearngin_amanda:
+  name:
+    - Swearngin
+    - Amanda
 
 id_author_tan_desney:
   name:
