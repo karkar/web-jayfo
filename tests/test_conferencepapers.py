@@ -1,4 +1,5 @@
 import os.path
+import PIL.Image
 import unittest
 import yaml
 
@@ -54,7 +55,7 @@ class TestConferencePapers(unittest.TestCase):
         Confirm all files references by a paper actually exist.
         """
         for id_conferencepaper, conferencepaper in self.data['conferencepapers'].items():
-            # Every paper must have a thumb
+            # Every paper must have a thumb of the right size
             self.assertIn(
                 'localthumb',
                 conferencepaper,
@@ -71,6 +72,13 @@ class TestConferencePapers(unittest.TestCase):
                 file_name,
                 '^[a-z0-9\-\.]*$',
                 '{} file name contains illegal characters'.format(id_conferencepaper)
+            )
+
+            image = PIL.Image.open('publications/{}'.format(file_path))
+            self.assertEqual(
+                image.size,
+                (120, 120),
+                '{} image thumb is not 120x120'.format(id_conferencepaper)
             )
 
             # Papers may have a PDF
