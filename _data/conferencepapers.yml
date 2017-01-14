@@ -1,5 +1,90 @@
 ---
 
+id_conferencepaper_chi2017_genie:
+  pubnum: C.70
+  authors:
+    - id_author_swearngin_amanda
+    - id_author_ko_andrew
+    - id_author_fogarty_james
+  title: 'Genie: Input Retargeting on the Web through Command Reverse Engineering'
+  conference: id_conference_chi_2017
+  localthumb: chi2017-genie.png
+  localpdf: chi2017-genie.pdf
+
+id_conferencepaper_chi2017_grouptouch:
+  pubnum: C.69
+  authors:
+    - id_author_evans_abigail
+    - id_author_davis_katie
+    - id_author_fogarty_james
+    - id_author_wobbrock_jacob
+  title: 'Group Touch: Distinguishing Tabletop Users in Group Settings via Statistical Modeling of Touch Pairs'
+  conference: id_conference_chi_2017
+  localthumb: chi2017-grouptouch.png
+  localpdf: chi2017-grouptouch.pdf
+
+id_conferencepaper_chi2017_instagram:
+  pubnum: C.68
+  authors:
+    - id_author_chung_chia-fang
+    - id_author_agapie_elena
+    - id_author_schroeder_jessica
+    - id_author_mishra_sonali
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating'
+  conference: id_conference_chi_2017
+  localthumb: chi2017-instagram.png
+  localpdf: chi2017-instagram.pdf
+
+id_conferencepaper_chi2017_interactionproxies:
+  pubnum: C.67
+  authors:
+    - id_author_zhang_xiaoyi
+    - id_author_ross_anne
+    - id_author_caspi_anat
+    - id_author_fogarty_james
+    - id_author_wobbrock_jacob
+  title: 'Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility'
+  conference: id_conference_chi_2017
+  localthumb: chi2017-interactionproxies.png
+  localpdf: chi2017-interactionproxies.pdf
+
+id_conferencepaper_chi2017_menstrualtracking:
+  pubnum: C.66
+  authors:
+    - id_author_epstein_daniel
+    - id_author_lee_nicole
+    - id_author_kang_jennifer
+    - id_author_agapie_elena
+    - id_author_schroeder_jessica
+    - id_author_pina_laura
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+  title: 'Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools'
+  conference: id_conference_chi_2017
+  localthumb: chi2017-menstrualtracking.png
+  localpdf: chi2017-menstrualtracking.pdf
+
+id_conferencepaper_chi2017_tummytrials:
+  pubnum: C.65
+  authors:
+    - id_author_karkar_ravi
+    - id_author_schroeder_jessica
+    - id_author_epstein_daniel
+    - id_author_pina_laura
+    - id_author_scofield_jeffrey
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+    - id_author_vilardaga_roger
+    - id_author_zia_jasmine
+  title: 'TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers'
+  conference: id_conference_chi_2017
+  localthumb: chi2017-tummytrials.png
+  localpdf: chi2017-tummytrials.pdf
+
 id_conferencepaper_cscw2017_triggers:
   pubnum: C.64
   authors:
