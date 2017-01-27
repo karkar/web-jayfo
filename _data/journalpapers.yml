@@ -19,10 +19,10 @@ id_journalpaper_pervasivecomputing2017:
   title: 'Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications'
   journal: id_journal_pervasivecomputing
   year: 2017
-#  volume: 23
-#  issue: 3
-  pages: In Press
-#  officialurl: http://dx.doi.org/10.1093/jamia/ocv150
+  volume: 16
+  issue: 1
+  pages: 74-84
+  officialurl: http://dx.doi.org/10.1109/MPRV.2017.18
   localthumb: pervasivecomputing2017.png
   localpdf: pervasivecomputing2017.pdf
 
