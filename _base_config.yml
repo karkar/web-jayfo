@@ -1,21 +1,23 @@
 config:
-  local:
-    node:
-      version: 4.5.0
+  python:
+    required: True
+    version: 3.5.2
+    pip_version: 8.1.1
+    # Invoke is currently pinned by this bug:
+    #   https://github.com/pyinvoke/invoke/issues/345
+    invoke_version: 0.12.2
 
-    python:
-      version: 3.5.2
-      pip_version: 8.1.1
-      # Invoke is currently pinned by this bug:
-      #   https://github.com/pyinvoke/invoke/issues/345
-      invoke_version: 0.12.2
+  node:
+    required: True
+    version: 4.5.0
 
-    ruby:
-      version: 2.3.3
-      bundler_version: 1.13.6
+  ruby:
+    required: True
+    version: 2.3.3
+    bundler_version: 1.13.6
 
   readme:
-    working_directory: c:\devel\web-jekyll-base
+    working_directory: c:\devel\web-jayfo
 
     node_versions:
       - version: 4.5.0

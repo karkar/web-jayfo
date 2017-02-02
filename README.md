@@ -7,7 +7,7 @@ The website for James Fogarty, as hosted at <http://homes.cs.washington.edu/~jfo
 
 This site is implemented in Jekyll, which requires Ruby and Node.js. It also uses Python for automation and testing.
 
-## Installing Ruby, Ruby DevKit, Node.js, and Python
+## Installing Python
 
 Development currently requires:
 
@@ -72,11 +72,11 @@ All Python work should be done within a virtual environment, to avoid dependency
 Node.js and Ruby have their own dependency management (i.e., npm shrinkwrap and bundler).
 Our Python automation scripts will employ those tools, but we first need to configure Python.
 
-Create the virtual environment. From the working directory of our project (e.g., `c:\devel\web-jekyll-base`):
+Create the virtual environment. From the working directory of our project (e.g., `c:\devel\web-jayfo`):
 
     c:\Python35\python.exe -m venv env35
 
-This will create a directory for the virtual environment (e.g., `c:\devel\web-jekyll-base\env35\`).
+This will create a directory for the virtual environment (e.g., `c:\devel\web-jayfo\env35\`).
 
 Next activate that virtual environment and install our Python dependencies:
 
@@ -92,7 +92,7 @@ Next use Python's invoke automation to get the rest of our dependencies:
 Invoke automation is provided for building the site.
 
 If it is not already active, you need to re-activate the virtual environment.
-From the working directory of our project (e.g., `c:\devel\web-jekyll-base`):
+From the working directory of our project (e.g., `c:\devel\web-jayfo`):
 
     env35\Scripts\activate.bat
 
