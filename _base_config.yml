@@ -1,21 +1,32 @@
 config:
-  local:
-    node:
-      version: 4.5.0
+  python:
+    version: 3.5.2
+    pip_version: 8.1.1
+    # Invoke is currently pinned by this bug:
+    #   https://github.com/pyinvoke/invoke/issues/345
+    invoke_version: 0.12.2
 
-    python:
-      version: 3.5.2
-      pip_version: 8.1.1
-      # Invoke is currently pinned by this bug:
-      #   https://github.com/pyinvoke/invoke/issues/345
-      invoke_version: 0.12.2
+  node:
+    version: 4.5.0
 
-    ruby:
-      version: 2.3.3
-      bundler_version: 1.13.6
+  ruby:
+    version: 2.3.3
+    bundler_version: 1.13.6
+
+  docker:
+    cmd_bash_macos: /bin/bash
+    cmd_dockermachine_macos: /usr/local/bin/docker-machine
+
+    cmd_bash_windows: C:/Program Files/Git/bin/bash
+    cmd_dockermachine_windows: C:/Program Files/Docker Toolbox/docker-machine.exe
+
+    travis:
+      version: 1.11.2-0~trusty
+      compose_version: 1.8.0-rc1
+      compose_up_delay: 60
 
   readme:
-    working_directory: c:\devel\web-jekyll-base
+    working_directory: c:\devel\web-jayfo
 
     node_versions:
       - version: 4.5.0
