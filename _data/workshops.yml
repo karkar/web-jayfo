@@ -1,5 +1,15 @@
 ---
 
+id_workshop_chi2017_quantified_data:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Quantified Data and Social Relationships'
+  shortname: CHI 2017
+  year: 2017
+
+id_workshop_chi2017_womens_health:
+  longname: "Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Hacking Women\'s Health"
+  shortname: CHI 2017
+  year: 2017
+
 id_workshop_acbs2016:
   longname: 'Presented at the Association for Contextual Behavioral Science'
   shortname: ACBS 2016

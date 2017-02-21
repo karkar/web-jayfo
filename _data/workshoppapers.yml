@@ -1,5 +1,31 @@
 ---
 
+id_workshoppaper_chi2017_quantified_data:
+  pubnum: W.35
+  authors:
+    - id_author_epstein_daniel
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'Exploring Opportunities for Storytelling with Everyday Personal Data'
+  workshop: id_workshop_chi2017_quantified_data
+  localpdf: workshop-chi2017-quantifieddata.pdf
+
+id_workshoppaper_chi2017_womens_health:
+  pubnum: W.34
+  authors:
+    - id_author_epstein_daniel
+    - id_author_lee_nicole
+    - id_author_kang_jennifer
+    - id_author_agapie_elena
+    - id_author_schroeder_jessica
+    - id_author_pina_laura
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+  title: 'Exploring New Design Directions for Menstrual Tracking Technology'
+  workshop: id_workshop_chi2017_womens_health
+  localpdf: workshop-chi2017-womenshealth.pdf
+
 id_workshoppaper_ubicomp2016_mental_health:
   pubnum: W.33
   authors:
