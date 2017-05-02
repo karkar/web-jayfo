@@ -5,6 +5,11 @@ id_workshop_acbs2016:
   shortname: ACBS 2016
   year: 2016
 
+id_workshop_chi2017_digitalhealth:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Digital Health & Self-Experimentation'
+  shortname: CHI 2017
+  year: 2017
+
 id_workshop_chi2017_quantifieddata:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Quantified Data & Social Relationships'
   shortname: CHI 2017

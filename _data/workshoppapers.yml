@@ -1,12 +1,38 @@
 ---
 
 id_workshoppaper_chi2017_codeandcontribution:
-  pubnum: W.36
+  pubnum: W.38
   authors:
     - id_author_fogarty_james
   title: 'Code and Contribution in Interactive Systems Research'
   workshop: id_workshop_chi2017_toolkits
   localpdf: workshop-chi2017-codeandcontribution.pdf
+
+id_workshoppaper_chi2017_wish:
+  pubnum: W.37
+  authors:
+    - id_author_karkar_ravi
+    - id_author_schroeder_jessica
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+    - id_author_zia_jasmine
+  title: 'Hypothesis Formation and Hypothesis Testing: Design Challenges in Self-Experimentation'
+  workshop: id_workshop_chi2017_digitalhealth
+  localpdf: workshop-chi2017-hypothesisformationandtesting.pdf
+
+id_workshoppaper_chi2017_wish:
+  pubnum: W.36
+  authors:
+    - id_author_schroeder_jessica
+    - id_author_hoffswell_jane
+    - id_author_chung_chia-fang
+    - id_author_munson_sean
+    - id_author_zia_jasmine
+    - id_author_fogarty_james
+  title: 'Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals'
+  workshop: id_workshop_chi2017_wish
+  localpdf: workshop-chi2017-wish.pdf
 
 id_workshoppaper_chi2017_quantifieddata:
   pubnum: W.35
