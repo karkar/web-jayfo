@@ -69,7 +69,7 @@ jfogarty [at] cs [dot] washington [dot] edu
 <div class="sidebar_end"></div>
 <!-- end sidebar -->
 
-I am an Associate Professor of Computer Science & Engineering at the University of Washington. I am also a core member of the DUB Group, our cross-campus initiative advancing Human-Computer Interaction and Design research and education.
+I am a Professor of Computer Science & Engineering at the University of Washington. I am also a core member of the DUB Group, our cross-campus initiative advancing Human-Computer Interaction and Design research and education.
 
 My broad research interests are in Human-Computer Interaction, User Interface Software and Technology, and Ubiquitous Computing. My focus is on developing, deploying, and evaluating new approaches to the human obstacles surrounding widespread everyday adoption of ubiquitous sensing and intelligent computing technologies.
 
