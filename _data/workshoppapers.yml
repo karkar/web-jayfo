@@ -1,6 +1,66 @@
 ---
 
-id_workshoppaper_ubicomp2016_mental_health:
+id_workshoppaper_chi2017_codeandcontribution:
+  pubnum: W.38
+  authors:
+    - id_author_fogarty_james
+  title: 'Code and Contribution in Interactive Systems Research'
+  workshop: id_workshop_chi2017_toolkits
+  localpdf: workshop-chi2017-codeandcontribution.pdf
+
+id_workshoppaper_chi2017_wish:
+  pubnum: W.37
+  authors:
+    - id_author_karkar_ravi
+    - id_author_schroeder_jessica
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+    - id_author_zia_jasmine
+  title: 'Hypothesis Formation and Hypothesis Testing: Design Challenges in Self-Experimentation'
+  workshop: id_workshop_chi2017_digitalhealth
+  localpdf: workshop-chi2017-hypothesisformationandtesting.pdf
+
+id_workshoppaper_chi2017_wish:
+  pubnum: W.36
+  authors:
+    - id_author_schroeder_jessica
+    - id_author_hoffswell_jane
+    - id_author_chung_chia-fang
+    - id_author_munson_sean
+    - id_author_zia_jasmine
+    - id_author_fogarty_james
+  title: 'Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals'
+  workshop: id_workshop_chi2017_wish
+  localpdf: workshop-chi2017-wish.pdf
+
+id_workshoppaper_chi2017_quantifieddata:
+  pubnum: W.35
+  authors:
+    - id_author_epstein_daniel
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'Exploring Opportunities for Storytelling with Everyday Personal Data'
+  workshop: id_workshop_chi2017_quantifieddata
+  localpdf: workshop-chi2017-storytelling.pdf
+
+id_workshoppaper_chi2017_womenshealth:
+  pubnum: W.34
+  authors:
+    - id_author_epstein_daniel
+    - id_author_lee_nicole
+    - id_author_kang_jennifer
+    - id_author_agapie_elena
+    - id_author_schroeder_jessica
+    - id_author_pina_laura
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+  title: 'Exploring New Design Directions for Menstrual Tracking Technology'
+  workshop: id_workshop_chi2017_womenshealth
+  localpdf: workshop-chi2017-menstrualtracking.pdf
+
+id_workshoppaper_ubicomp2016:
   pubnum: W.33
   authors:
     - id_author_karkar_ravi
@@ -11,10 +71,10 @@ id_workshoppaper_ubicomp2016_mental_health:
     - id_author_munson_sean
     - id_author_zia_jasmine
   title: 'Toward a Portable, Self-Administered Critical Flicker Frequency Test'
-  workshop: id_workshop_ubicomp2016_mental_health
+  workshop: id_workshop_ubicomp2016_mentalhealth
   pages: 1194-1199
   officialurl: http://dx.doi.org/10.1145/2968219.2968307
-  localpdf: workshop-ubicomp2016-mentalhealth.pdf
+  localpdf: workshop-ubicomp2016.pdf
 
 id_workshoppaper_fnm2016:
   pubnum: W.32
@@ -110,7 +170,7 @@ id_workshoppaper_isrii2016_selfexperimentation:
   title: 'Self Experimentation in Personalized Health'
   workshop: id_workshop_isrii2016
 
-id_workshoppaper_ubicomp2015_quantifiedself:
+id_workshoppaper_ubicomp2015:
   pubnum: W.25
   authors:
     - id_author_karkar_ravi
@@ -120,10 +180,10 @@ id_workshoppaper_ubicomp2015_quantifiedself:
     - id_author_vilardaga_roger
     - id_author_zia_jasmine
   title: 'Opportunities and Challenges for Self-Experimentation in Self-Tracking'
-  workshop: id_workshop_ubicomp2015_quantified_self
+  workshop: id_workshop_ubicomp2015_quantifiedself
   pages: 991-996
   officialurl: http://dx.doi.org/10.1145/2800835.2800949
-  localpdf: workshop-ubicomp2015-quantifiedself.pdf
+  localpdf: workshop-ubicomp2015.pdf
 
 id_workshoppaper_sdx2015:
   pubnum: W.24
@@ -137,7 +197,7 @@ id_workshoppaper_sdx2015:
   workshop: id_workshop_sdx2015
   localpdf: workshop-nsfsdx2015.pdf
 
-id_workshoppaper_chi2015_personalinformatics:
+id_workshoppaper_chi2015:
   pubnum: W.23
   authors:
     - id_author_epstein_daniel
@@ -146,18 +206,18 @@ id_workshoppaper_chi2015_personalinformatics:
     - id_author_fogarty_james
     - id_author_munson_sean
   title: 'Wearables of 2025: Designing Personal Informatics for a Broader Audience'
-  workshop: id_workshop_chi2015_personal_informatics
+  workshop: id_workshop_chi2015_personalinformatics
   localpdf: workshop-chi2015.pdf
 
-id_workshoppaper_ubicomp2014_personalinformatics:
+id_workshoppaper_ubicomp2014:
   pubnum: W.22
   authors:
     - id_author_epstein_daniel
     - id_author_fogarty_james
     - id_author_munson_sean
   title: 'Failures in Sharing Personal Data on Social Networking Sites'
-  workshop: id_workshop_ubicomp2014_personal_informatics
-  localpdf: workshop-ubicomp2014-personalinformatics.pdf
+  workshop: id_workshop_ubicomp2014_personalinformatics
+  localpdf: workshop-ubicomp2014.pdf
 
 id_workshoppaper_hcic2014_personalinformatics:
   pubnum: W.21
@@ -184,7 +244,7 @@ id_workshoppaper_chi2013:
     - id_author_epstein_daniel
     - id_author_fogarty_james
   title: 'Examining Obstacles to Sharing Fine-Grained Personal Activity Data'
-  workshop: id_workshop_chi2013_personal_informatics
+  workshop: id_workshop_chi2013_personalinformatics
   localpdf: workshop-chi2013.pdf
 
 id_workshoppaper_chi2012_interactivemachinelearning:
@@ -193,7 +253,7 @@ id_workshoppaper_chi2012_interactivemachinelearning:
     - id_author_amershi_saleema
     - id_author_fogarty_james
   title: 'Designing for Effective End-User Interactive Machine Learning'
-  workshop: id_workshop_chi2012_interactive_machine_learning
+  workshop: id_workshop_chi2012_interactivemachinelearning
   localpdf: workshop-chi2012-interactivemachinelearning.pdf
 
 id_workshoppaper_chi2012_personalinformatics:
@@ -203,7 +263,7 @@ id_workshoppaper_chi2012_personalinformatics:
     - id_author_borriello_gaetano
     - id_author_fogarty_james
   title: 'Understanding Self-Efficacy and the Design of Personal Informatics Tools'
-  workshop: id_workshop_chi2012_personal_informatics
+  workshop: id_workshop_chi2012_personalinformatics
   localpdf: workshop-chi2012-personalinformatics.pdf
 
 id_workshoppaper_nsfpecs2011:
@@ -223,7 +283,7 @@ id_workshoppaper_iui2011:
     - id_author_fogarty_james
     - id_author_harrison_beverly
   title: 'OASIS: Creating Smart Objects with Dynamic Digital Behaviors'
-  workshop: id_workshop_iui2011_smart_objects
+  workshop: id_workshop_iui2011_smartobjects
   localpdf: workshop-iui2011.pdf
 
 id_workshoppaper_chi2010:
@@ -243,7 +303,7 @@ id_workshoppaper_nips2009:
     - id_author_kapoor_ashish
     - id_author_tan_desney
   title: 'Designing for End-User Interactive Concept Learning in CueFlik'
-  workshop: id_workshop_nips2009_interactive_machine_learning
+  workshop: id_workshop_nips2009_interactivemachinelearning
   localpdf: workshop-nips2009.pdf
 
 id_workshoppaper_ijcai2009:
@@ -253,7 +313,7 @@ id_workshoppaper_ijcai2009:
     - id_author_etzioni_oren
     - id_author_fogarty_james
   title: 'Filtering Information Extraction via User-Contributed Knowledge'
-  workshop: id_workshop_ijcai2009_user_contributed_knowledge
+  workshop: id_workshop_ijcai2009_usercontributedknowledge
   localpdf: workshop-ijcai2009.pdf
 
 id_workshoppaper_chi2009_shareddatasets:
@@ -261,7 +321,7 @@ id_workshoppaper_chi2009_shareddatasets:
   authors:
     - id_author_fogarty_james
   title: 'HCI is Different: We Need Something Else'
-  workshop: id_workshop_chi2009_shared_datasets
+  workshop: id_workshop_chi2009_shareddatasets
   localpdf: workshop-chi2009-shareddatasets.pdf
 
 id_workshoppaper_chi2009_consumptionfeedback:
@@ -283,7 +343,7 @@ id_workshoppaper_chi2009_enduserprogramming:
     - id_author_fogarty_james
     - id_author_weld_daniel
   title: 'The Temporal Dimension in End User Web Programming'
-  workshop: id_workshop_chi2009_end_user_programming
+  workshop: id_workshop_chi2009_enduserprogramming
   localpdf: workshop-chi2009-enduserprogramming.pdf
 
 id_workshoppaper_chi2007:
@@ -292,7 +352,7 @@ id_workshoppaper_chi2007:
     - id_author_campbell_taj
     - id_author_fogarty_james
   title: 'Applying Game Design to Everyday Fitness Applications'
-  workshop: id_workshop_chi2007_exertion_interfaces
+  workshop: id_workshop_chi2007_exertioninterfaces
   localpdf: workshop-chi2007.pdf
 
 id_workshoppaper_chi2006:
@@ -303,7 +363,7 @@ id_workshoppaper_chi2006:
     - id_author_keyani_pedram
     - id_author_tang_karen
   title: 'Anonymous and Privacy-Sensitive Collection of Sensed Data in Location-Based Applications'
-  workshop: id_workshop_chi2006_mobile_social_software
+  workshop: id_workshop_chi2006_mobilesocialsoftware
   localpdf: workshop-chi2006.pdf
 
 id_workshoppaper_uist2004dc:
@@ -311,7 +371,7 @@ id_workshoppaper_uist2004dc:
   authors:
     - id_author_fogarty_james
   title: 'Constructing and Evaluating Sensor-Based Statistical Models of Human Interruptibility'
-  workshop: id_workshop_uist2004_doctoral_symposium
+  workshop: id_workshop_uist2004_doctoralsymposium
   localpdf: workshop-uist2004dc.pdf
 
 id_workshoppaper_ibmhci2004:
@@ -319,7 +379,7 @@ id_workshoppaper_ibmhci2004:
   authors:
     - id_author_fogarty_james
   title: 'Constructing and Evaluating Sensor-Based Statistical Models of Human Interruptibility'
-  workshop: id_workshop_ibm2004_hci_symposium
+  workshop: id_workshop_ibm2004_hcisymposium
   localpdf: workshop-ibmhci2004.pdf
 
 id_workshoppaper_ubicomp2004dc:
@@ -327,7 +387,7 @@ id_workshoppaper_ubicomp2004dc:
   authors:
     - id_author_fogarty_james
   title: 'Constructing and Evaluating Sensor-Based Statistical Models of Human Interruptibility'
-  workshop: id_workshop_ubicomp2004_doctoral_symposium
+  workshop: id_workshop_ubicomp2004_doctoralsymposium
   localpdf: workshop-ubicomp2004dc.pdf
 
 id_workshoppaper_chi2004:
@@ -335,7 +395,7 @@ id_workshoppaper_chi2004:
   authors:
     - id_author_fogarty_james
   title: 'Connecting versus Calming: Interruptibility, Presence, and Availability'
-  workshop: id_workshop_chi2004_forecasting_presence
+  workshop: id_workshop_chi2004_forecastingpresence
   localpdf: workshop-chi2004.pdf
 
 id_workshoppaper_pervasive2004:
@@ -351,5 +411,5 @@ id_workshoppaper_ubicomp2003:
   authors:
     - id_author_fogarty_james
   title: 'Sensor Redundancy and Certain Privacy Concerns'
-  workshop: id_workshop_ubicomp2007_boundary_negotiation
+  workshop: id_workshop_ubicomp2007_boundarynegotiation
   localpdf: workshop-ubicomp2003.pdf
