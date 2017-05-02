@@ -1,41 +1,51 @@
 ---
 
-id_workshop_chi2017_quantified_data:
-  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Quantified Data and Social Relationships'
-  shortname: CHI 2017
-  year: 2017
-
-id_workshop_chi2017_womens_health:
-  longname: "Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Hacking Women\'s Health"
-  shortname: CHI 2017
-  year: 2017
-
 id_workshop_acbs2016:
   longname: 'Presented at the Association for Contextual Behavioral Science'
   shortname: ACBS 2016
   year: 2016
+
+id_workshop_chi2017_quantifieddata:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Quantified Data & Social Relationships'
+  shortname: CHI 2017
+  year: 2017
+
+id_workshop_chi2017_toolkits:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating and Sharing Technical HCI Toolkits'
+  shortname: CHI 2017
+  year: 2017
+
+id_workshop_chi2017_wish:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Interactive Systems in Healthcare'
+  shortname: CHI 2017
+  year: 2017
+
+id_workshop_chi2017_womenshealth:
+  longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Hacking Women''s Health'
+  shortname: CHI 2017
+  year: 2017
 
 id_workshop_chi2016_wish:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Interactive Systems in Healthcare'
   shortname: CHI 2016
   year: 2016
 
-id_workshop_chi2015_personal_informatics:
+id_workshop_chi2015_personalinformatics:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Beyond Personal Informatics: Designing for Experiences with Data'
   shortname: CHI 2015
   year: 2015
 
-id_workshop_chi2013_personal_informatics:
+id_workshop_chi2013_personalinformatics:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Personal Informatics in the Wild: Hacking Habits for Health & Happiness'
   shortname: CHI 2013
   year: 2013
 
-id_workshop_chi2012_interactive_machine_learning:
+id_workshop_chi2012_interactivemachinelearning:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on End-User Interactions with Intelligent and Autonomous Systems'
   shortname: CHI 2012
   year: 2012
 
-id_workshop_chi2012_personal_informatics:
+id_workshop_chi2012_personalinformatics:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Personal Informatics in Practice: Improving Quality of Life Through Data'
   shortname: CHI 2012
   year: 2012
@@ -45,12 +55,12 @@ id_workshop_chi2010_floss:
   shortname: CHI 2010
   year: 2010
 
-id_workshop_chi2009_end_user_programming:
+id_workshop_chi2009_enduserprogramming:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on End User Programming for the Web'
   shortname: CHI 2009
   year: 2009
 
-id_workshop_chi2009_shared_datasets:
+id_workshop_chi2009_shareddatasets:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Developing Shared Home Behavior Datasets to Advance HCI and Ubiquitous Computing Research'
   shortname: CHI 2009
   year: 2009
@@ -60,17 +70,17 @@ id_workshop_chi2009_sustainability:
   shortname: CHI 2009
   year: 2009
 
-id_workshop_chi2007_exertion_interfaces:
+id_workshop_chi2007_exertioninterfaces:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Exertion Interfaces'
   shortname: CHI 2007
   year: 2007
 
-id_workshop_chi2006_mobile_social_software:
+id_workshop_chi2006_mobilesocialsoftware:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Mobile Social Software'
   shortname: CHI 2006
   year: 2006
 
-id_workshop_chi2004_forecasting_presence:
+id_workshop_chi2004_forecastingpresence:
   longname: 'Presented at the ACM Conference on Human Factors in Computing Systems Workshop on Forecasting Presence and Availability'
   shortname: CHI 2004
   year: 2004
@@ -85,11 +95,11 @@ id_workshop_hcic2014:
   shortname: HCIC 2014
   year: 2014
 
-id_workshop_ibm2004_hci_symposium:
+id_workshop_ibm2004_hcisymposium:
   longname: 'Presented at the IBM Research Human Computer Interaction Symposium'
   year: 2004
 
-id_workshop_ijcai2009_user_contributed_knowledge:
+id_workshop_ijcai2009_usercontributedknowledge:
   longname: 'Presented at the International Joint Conferences on Artificial Intelligence Workshop on User-Contributed Knowledge and Artificial Intelligence: An Evolving Synergy'
   shortname: IJCAI 2009
   year: 2009
@@ -99,7 +109,7 @@ id_workshop_isrii2016:
   shortname: ISRII 2016
   year: 2016
 
-id_workshop_iui2011_smart_objects:
+id_workshop_iui2011_smartobjects:
   longname: 'Presented at the International Conference on Intelligent User Interfaces Workshop on Interacting with Smart Objects'
   shortname: IUI 2011
   year: 2011
@@ -108,7 +118,7 @@ id_workshop_kavli2013:
   longname: 'Presented at the National Academy of Sciences Kavli Frontiers of Science U.S. Symposium'
   year: 2013
 
-id_workshop_nips2009_interactive_machine_learning:
+id_workshop_nips2009_interactivemachinelearning:
   longname: 'Presented at the Conference on Neural Information Processing Systems Workshop on Analysis and Design of Algorithms for Interactive Machine Learning'
   shortname: NIPS 2009
   year: 2009
@@ -126,33 +136,32 @@ id_workshop_sdx2015:
   longname: 'Presented at the Workshop on Small Data Experimentation (sdX): Opportunities, Challenges, and Infrastructure'
   year: 2015
 
-id_workshop_ubicomp2016_mental_health:
+id_workshop_ubicomp2016_mentalhealth:
   longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on Mental Health and Well-Being: Sensing and Intervention'
   shortname: UbiComp 2016
   year: 2016
 
-id_workshop_ubicomp2015_quantified_self:
+id_workshop_ubicomp2015_quantifiedself:
   longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on New Frontiers of Quantified Self: Finding New Ways for Engaging Users in Collecting and Using Personal Data'
   shortname: UbiComp 2015
   year: 2015
 
-id_workshop_ubicomp2014_personal_informatics:
+id_workshop_ubicomp2014_personalinformatics:
   longname: 'Presented at the ACM International Joint Conference on Pervasive and Ubiquitous Computing Workshop on Disasters in Personal Informatics: The Unpublished Stories of Failure and Lessons Learned'
   shortname: UbiComp 2014
   year: 2014
 
-id_workshop_ubicomp2007_boundary_negotiation:
+id_workshop_ubicomp2007_boundarynegotiation:
   longname: 'Presented at the International Conference on Ubiquitous Computing Workshop on Privacy as Boundary Negotiation'
   shortname: UbiComp 2003
   year: 2003
 
-id_workshop_uist2004_doctoral_symposium:
+id_workshop_uist2004_doctoralsymposium:
   longname: 'Presented at the ACM Symposium on User Interface Software and Technology Doctoral Symposium'
   shortname: UIST 2004
   year: 2004
 
-id_workshop_ubicomp2004_doctoral_symposium:
+id_workshop_ubicomp2004_doctoralsymposium:
   longname: 'Presented at the International Conference on Ubiquitous Computing Doctoral Symposium'
   shortname: UbiComp 2004
   year: 2004
-
