@@ -8,7 +8,7 @@ id_workshoppaper_chi2017_codeandcontribution:
   workshop: id_workshop_chi2017_toolkits
   localpdf: workshop-chi2017-codeandcontribution.pdf
 
-id_workshoppaper_chi2017_wish:
+id_workshoppaper_chi2017_selfexperimentation:
   pubnum: W.37
   authors:
     - id_author_karkar_ravi
