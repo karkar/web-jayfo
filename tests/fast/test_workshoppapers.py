@@ -1,4 +1,5 @@
 import os.path
+import re
 import unittest
 import yaml
 
@@ -42,6 +43,37 @@ class TestWorkshopPapers(unittest.TestCase):
                     self.data['authors'],
                     '{} references author {} not found in authors.yml'.format(id_workshoppaper, id_author)
                 )
+
+    def test_workshoppapers_sequential(self) -> None:
+        """
+        Confirm workshop papers are numbered sequentially.
+
+        This can also help in detecting two workshops with the same ID.
+        """
+        numbers = []
+        for id_workshoppaper, workshoppaper in self.data['workshoppapers'].items():
+            self.assertRegex(
+                workshoppaper['pubnum'],
+                'W.([\d]+)',
+                '{} illegal pubnum'.format(id_workshoppaper)
+            )
+
+            numbers.append(
+                int(
+                    re.search(
+                        'W.([\d]+)',
+                        workshoppaper['pubnum']
+                    ).group(1)
+                )
+            )
+
+        for count in range(0, len(numbers)):
+            numbers.remove(count + 1)
+
+        self.assertEqual(
+            0,
+            len(numbers)
+        )
 
     def test_workshoppapers_workshop_exist(self) -> None:
         """
