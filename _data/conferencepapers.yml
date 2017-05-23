@@ -34,6 +34,7 @@ id_conferencepaper_chi2017_instagram:
     - id_author_munson_sean
   title: 'When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating'
   conference: id_conference_chi_2017
+  pmcid: PMC5432132
   localthumb: chi2017-instagram.png
   localpdf: chi2017-instagram.pdf
 
@@ -64,6 +65,7 @@ id_conferencepaper_chi2017_menstrualtracking:
     - id_author_munson_sean
   title: 'Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools'
   conference: id_conference_chi_2017
+  pmcid: PMC5432133
   localthumb: chi2017-menstrualtracking.png
   localpdf: chi2017-menstrualtracking.pdf
 
@@ -82,6 +84,7 @@ id_conferencepaper_chi2017_tummytrials:
     - id_author_zia_jasmine
   title: 'TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers'
   conference: id_conference_chi_2017
+  pmcid: PMC5432136
   localthumb: chi2017-tummytrials.png
   localpdf: chi2017-tummytrials.pdf
 
@@ -98,6 +101,7 @@ id_conferencepaper_cscw2017_triggers:
   conference: id_conference_cscw_2017
   pages: 1726-1739
   officialurl: https://doi.org/10.1145/2998181.2998276
+  pmcid: PMC5432206
   localthumb: cscw2017-triggers.png
   localpdf: cscw2017-triggers.pdf
 
@@ -130,6 +134,7 @@ id_conferencepaper_ubicomp2016:
   conference: id_conference_ubicomp_2016
   pages: 829-840
   officialurl: http://dx.doi.org/10.1145/2971648.2971656
+  pmcid: PMC5432203
   localthumb: ubicomp2016.png
   localpdf: ubicomp2016.pdf
 
@@ -158,6 +163,7 @@ id_conferencepaper_chi2016_food4thought:
   conference: id_conference_chi_2016
   pages: 5632-5644
   officialurl: http://dx.doi.org/10.1145/2858036.2858044
+  pmcid: PMC5428072
   localthumb: chi2016-food4thought.png
   localpdf: chi2016-food4thought.pdf
 
@@ -174,6 +180,7 @@ id_conferencepaper_chi2016_abandonment:
   conference: id_conference_chi_2016
   pages: 1109-1113
   officialurl: http://dx.doi.org/10.1145/2858036.2858045
+  pmcid: PMC5428074
   localthumb: chi2016-abandonment.png
   localpdf: chi2016-abandonment.pdf
 
@@ -191,6 +198,7 @@ id_conferencepaper_cscw2016:
   conference: id_conference_cscw_2016
   pages: 770-786
   officialurl: http://dx.doi.org/10.1145/2818048.2819926
+  pmcid: PMC5432205
   localthumb: cscw2016.png
   localpdf: cscw2016.pdf
 
