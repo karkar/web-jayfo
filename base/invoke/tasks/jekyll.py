@@ -1,7 +1,6 @@
+import base.invoke.tasks.update
 import invoke
 import sys
-
-import base.invoke.tasks.update
 
 
 @invoke.task(pre=[base.invoke.tasks.update.update_dependencies])

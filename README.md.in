@@ -1,36 +1,21 @@
-{#- This file compiles to README.md -#}
+This is a template for websites implemented using Jekyll.
 
-{%- from "base/readme/python_version_params.md" import python_version_params as python_version_params with context -%}
+{% include "base/readme/install_dependencies.md" %}
 
-# Website for James Fogarty
-[![Build Status](https://travis-ci.org/fogies/web-jayfo.svg?branch=master)](https://travis-ci.org/fogies/web-jayfo)
-
-The website for James Fogarty, as hosted at <http://homes.cs.washington.edu/~jfogarty/>.
-
-# Building the Site
-
-This site is implemented in Jekyll, which requires Ruby and Node.js. It also uses Python for automation and testing.
-
-## Installing Python
-
-Development currently requires:
-
-{% include "base/readme/ruby_install.md" %}
-
-{% include "base/readme/node_install.md" %}
-
-{% include "base/readme/python_install.md" %}
-
-{% include "base/readme/python_venv_create.md" %}
-
+{% set install_params_python = {} %}
+{% for version_available in readme.python_versions %}
+{% if version_available.version == python.version %}
+{% set install_params_python = install_params_python.update(version_available) %}
+{% endif %}
+{% endfor %}
 ## Building and Serving the Site
 
 Invoke automation is provided for building the site.
 
 If it is not already active, you need to re-activate the virtual environment.
-From the working directory of our project (e.g., `{{ readme.working_directory }}`):
+From the working directory of our project:
 
-    {{ python_version_params.virtual_environment_name }}\Scripts\activate.bat
+    {{ install_params_python.virtual_environment_name }}\Scripts\activate.bat
 
 To build the site:
 
