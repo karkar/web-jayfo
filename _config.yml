@@ -13,13 +13,13 @@ navbar:
       link: 'publications.html'
 
 exclude:
-  # Our base directories
+  # base
+  - base.__init__.py
   - base/invoke
   - base/readme
-  - base/__init__.py
-  # Bootstrap
+  # Bootstrap source files
   - bootstrap/less
-  # CSS/LESS files, these are all included by other less files and cannot compile on their own
+  # CSS/LESS files that are included by other less files and cannot compile on their own
   - css/styles.less
   - css/base/base_styles.less
   - css/base/base_variables.less

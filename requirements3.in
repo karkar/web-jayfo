@@ -6,3 +6,4 @@ nose
 pillow
 pip-tools
 pyyaml
+requests

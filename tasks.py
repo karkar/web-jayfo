@@ -3,6 +3,7 @@ import invoke
 
 task_module_names = [
     'base.invoke.tasks.compile',
+    'base.invoke.tasks.docker',
     'base.invoke.tasks.jekyll',
     'base.invoke.tasks.update',
 ]
@@ -21,4 +22,3 @@ for module_name_current in task_module_names:
 
 # Invoke expects the default collection to be named 'ns'
 ns = tasks
-

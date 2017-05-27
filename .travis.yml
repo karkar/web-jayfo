@@ -9,16 +9,13 @@ python:
 
 cache:
   pip: true
-  directories:
-    - node_modules
-    - /home/travis/.rvm/gems
 
 install:
   # Install Python dependencies
-  - python -m pip install --upgrade pip==8.1.1
+  - python -m pip install --upgrade pip==9.0.1
   - python -m pip install -r requirements3.txt
 
-  # Install NodeJS
+  # Install Node
   - nvm install 4.5.0
 
   # Install Ruby
@@ -37,4 +34,4 @@ install:
 
 script:
   - nosetests tests.fast
-  - nosetests tests.full
+  - nosetests

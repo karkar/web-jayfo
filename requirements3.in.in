@@ -7,4 +7,5 @@ nose
 pillow
 pip-tools
 pyyaml
+requests
 {# This comment gives us a newline at the end of the generated file #}
