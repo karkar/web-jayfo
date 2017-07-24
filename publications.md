@@ -14,10 +14,10 @@ title: Publications
             [{{ paper.pubnum }}]
           </div>
           <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
-            {% if paper.officialurl %}
-              <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
-            {% elsif paper.localpdf %}
+            {% if paper.localpdf %}
               <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
+            {% elsif paper.officialurl %}
+              <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
             {% endif %}
           </div>
         </div>
@@ -38,15 +38,15 @@ title: Publications
           &nbsp;
       </div>
       <div class="publicationimage">
-        {% if paper.officialurl %}
-          <a href="{{ paper.officialurl }}">
-        {% elsif paper.localpdf %}
+        {% if paper.localpdf %}
           <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">
+        {% elsif paper.officialurl %}
+          <a href="{{ paper.officialurl }}">
         {% endif %}
         <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}">
-        {% if paper.officialurl %}
+        {% if paper.localpdf %}
           </a>
-        {% elsif paper.localpdf %}
+        {% elsif paper.officialurl %}
           </a>
         {% endif %}
       </div>
@@ -61,10 +61,10 @@ title: Publications
             {{ author['name'][0] }}{% if forloop.last %}.{% else %},{% endif %}
           {% endfor %}
           ({{ paper.year }}).
-          {% if paper.officialurl %}
-            <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
-          {% elsif paper.localpdf %}
+          {% if paper.localpdf %}
             <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
+          {% elsif paper.officialurl %}
+            <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
           {% else %}
             {{ paper.title }}.
           {% endif %}
@@ -95,10 +95,10 @@ title: Publications
         [{{ paper.pubnum }}]
             </div>
             <div class="col-xs-4 pull-right text-right hidden-md hidden-lg">
-              {% if paper.officialurl %}
-                <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
-              {% elsif paper.localpdf %}
+              {% if paper.localpdf %}
                 <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">local&nbsp;paper</a>
+              {% elsif paper.officialurl %}
+                <a href="{{ paper.officialurl }}">official&nbsp;paper</a>
               {% endif %}
             </div>
         </div>
@@ -119,15 +119,15 @@ title: Publications
           &nbsp;
       </div>
       <div class="publicationimage">
-        {% if paper.officialurl %}
-          <a href="{{ paper.officialurl }}">
-        {% elsif paper.localpdf %}
+        {% if paper.localpdf %}
           <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">
+        {% elsif paper.officialurl %}
+          <a href="{{ paper.officialurl }}">
         {% endif %}
         <img src="{{ site.baseurl }}/publications/{{ paper.localthumb }}">
-        {% if paper.officialurl %}
+        {% if paper.localpdf %}
           </a>
-        {% elsif paper.localpdf %}
+        {% elsif paper.officialurl %}
           </a>
         {% endif %}
       </div>
@@ -143,10 +143,10 @@ title: Publications
             {{ author['name'][0] }}{% if forloop.last %}.{% else %},{% endif %}
           {% endfor %}
           ({{ conference.year }}).
-          {% if paper.officialurl %}
-            <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
-          {% elsif paper.localpdf %}
+          {% if paper.localpdf %}
             <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
+          {% elsif paper.officialurl %}
+            <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
           {% else %}
             {{ paper.title }}.
           {% endif %}
@@ -204,10 +204,10 @@ title: Publications
             {{ author['name'][0] }}{% if forloop.last %}.{% else %},{% endif %}
           {% endfor %}
           ({{ workshop.year }}).
-          {% if paper.officialurl %}
-            <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
-          {% elsif paper.localpdf %}
+          {% if paper.localpdf %}
             <a href="{{ site.baseurl }}/publications/{{ paper.localpdf }}">{{ paper.title }}</a>.
+          {% elsif paper.officialurl %}
+            <a href="{{ paper.officialurl }}">{{ paper.title }}</a>.
           {% else %}
             {{ paper.title }}.
           {% endif %}
