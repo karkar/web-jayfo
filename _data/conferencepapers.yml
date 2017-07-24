@@ -8,6 +8,8 @@ id_conferencepaper_chi2017_genie:
     - id_author_fogarty_james
   title: 'Genie: Input Retargeting on the Web through Command Reverse Engineering'
   conference: id_conference_chi_2017
+  pages: 4703-4714
+  officialurl: https://doi.org/10.1145/3025453.3025506
   localthumb: chi2017-genie.png
   localpdf: chi2017-genie.pdf
 
@@ -20,6 +22,8 @@ id_conferencepaper_chi2017_grouptouch:
     - id_author_wobbrock_jacob
   title: 'Group Touch: Distinguishing Tabletop Users in Group Settings via Statistical Modeling of Touch Pairs'
   conference: id_conference_chi_2017
+  pages: 35-47
+  officialurl: https://doi.org/10.1145/3025453.3025793
   localthumb: chi2017-grouptouch.png
   localpdf: chi2017-grouptouch.pdf
 
@@ -34,6 +38,8 @@ id_conferencepaper_chi2017_instagram:
     - id_author_munson_sean
   title: 'When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating'
   conference: id_conference_chi_2017
+  pages: 1674-1687
+  officialurl: https://doi.org/10.1145/3025453.3025747
   pmcid: PMC5432132
   localthumb: chi2017-instagram.png
   localpdf: chi2017-instagram.pdf
@@ -48,6 +54,8 @@ id_conferencepaper_chi2017_interactionproxies:
     - id_author_wobbrock_jacob
   title: 'Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility'
   conference: id_conference_chi_2017
+  pages: 6024-6037
+  officialurl: https://doi.org/10.1145/3025453.3025846
   localthumb: chi2017-interactionproxies.png
   localpdf: chi2017-interactionproxies.pdf
 
@@ -65,6 +73,8 @@ id_conferencepaper_chi2017_menstrualtracking:
     - id_author_munson_sean
   title: 'Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools'
   conference: id_conference_chi_2017
+  pages: 6876-6888
+  officialurl: https://doi.org/10.1145/3025453.3025635
   pmcid: PMC5432133
   localthumb: chi2017-menstrualtracking.png
   localpdf: chi2017-menstrualtracking.pdf
@@ -84,6 +94,8 @@ id_conferencepaper_chi2017_tummytrials:
     - id_author_zia_jasmine
   title: 'TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers'
   conference: id_conference_chi_2017
+  pages: 6850-6863
+  officialurl: https://doi.org/10.1145/3025453.3025480
   pmcid: PMC5432136
   localthumb: chi2017-tummytrials.png
   localpdf: chi2017-tummytrials.pdf
