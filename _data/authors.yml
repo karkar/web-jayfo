@@ -36,6 +36,11 @@ id_author_andrew_adrienne:
     - Andrew
     - Adrienne
 
+id_author_aragon_cecilia:
+  name:
+    - Aragon
+    - Cecilia
+
 id_author_atkeson_christopher:
   name:
     - Atkeson
@@ -497,6 +502,11 @@ id_author_kriplean_travis:
     - Kriplean
     - Travis
 
+id_author_kuksenok_kateryna:
+  name:
+    - Kuksenok
+    - Kateryna
+
 id_author_ladabaum_uri:
   name:
     - Ladabaum
@@ -532,6 +542,12 @@ id_author_lee_bongshin:
   name:
     - Lee
     - Bongshin
+
+id_author_lee_charlotte:
+  name:
+    - Lee
+    - Charlotte
+    - P.
 
 id_author_lee_johnny:
   name:
@@ -601,6 +617,11 @@ id_author_munson_sean:
     - Munson
     - Sean
     - A.
+
+id_author_neff_gina:
+  name:
+    - Neff
+    - Gina
 
 id_author_nied_conrad:
   name:

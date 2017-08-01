@@ -9,6 +9,7 @@ aliases_longname:
   - longname: &cscw               Proceedings of the ACM Conference on Computer Supported Cooperative Work
   - longname: &dis                Proceedings of the ACM Conference on Designing Interactive Systems
   - longname: &dgo                Proceedings of the Conference on Digital Government Research
+  - longname: &ecscw              Proceedings of the European Conference on Computer Supported Cooperative Work
   - longname: &fdg                Proceedings of the International Conference on the Foundations of Digital Games
   - longname: &gi                 Proceedings of Graphics Interface
   - longname: &icmi               Proceedings of the International Conference on Multimodal Interfaces
@@ -150,6 +151,11 @@ id_conference_dis_2014:
   longname: *dis
   shortname: DIS 2014
   year: 2014
+
+id_conference_ecscw_2017:
+  long:name: *ecscw
+  shortname: ECSCW 2017
+  year: 2017
 
 id_conference_fdg_2011:
   longname: *fdg
