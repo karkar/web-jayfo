@@ -4,6 +4,7 @@ aliases_longname:
   - longname: &aaai_senior        Proceedings of the AAAI Conference on Artificial Intelligence, Senior Papers Track
   - longname: &avi                Proceedings of the International Conference on Advanced Visual Interfaces
   - longname: &aied               Proceedings of the International Conference on Artificial Intelligence in Education
+  - longname: &assets             Proceedings of the ACM Conference on Computers and Accessibility
   - longname: &chi                Proceedings of the ACM Conference on Human Factors in Computing Systems
   - longname: &cikm               Proceedings of the ACM Conference on Information and Knowledge Management
   - longname: &cscw               Proceedings of the ACM Conference on Computer Supported Cooperative Work
@@ -41,6 +42,11 @@ id_conference_aied_2001:
   longname: *aied
   shortname: AIED 2001
   year: 2001
+
+id_conference_assets_2017:
+  longname: *assets
+  shortname: ASSETS 2017
+  year: 2017
 
 id_conference_avi_2014:
   longname: *avi

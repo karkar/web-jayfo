@@ -1,5 +1,16 @@
 ---
 
+id_conferencepaper_assets2017:
+  pubnum: C.72
+  authors:
+    - id_author_ross_anne
+    - id_author_zhang_xiaoyi
+    - id_author_fogarty_james
+    - id_author_wobbrock_jacob
+  title: 'Epidemiology as a Framework for Large-Scale Mobile Application Accessibility Assessment'
+  conference: id_conference_assets_2017
+  localthumb: assets2017.png
+
 id_conferencepaper_ecscw2017:
   pubnum: C.71
   authors:
