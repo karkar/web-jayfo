@@ -1,5 +1,30 @@
 ---
 
+id_conferencepaper_assets2017:
+  pubnum: C.72
+  authors:
+    - id_author_ross_anne
+    - id_author_zhang_xiaoyi
+    - id_author_fogarty_james
+    - id_author_wobbrock_jacob
+  title: 'Epidemiology as a Framework for Large-Scale Mobile Application Accessibility Assessment'
+  conference: id_conference_assets_2017
+  localthumb: assets2017.png
+
+id_conferencepaper_ecscw2017:
+  pubnum: C.71
+  authors:
+    - id_author_kuksenok_kateryna
+    - id_author_aragon_cecilia
+    - id_author_fogarty_james
+    - id_author_lee_charlotte
+    - id_author_neff_gina
+  title: 'Deliberate Individual Change Framework for Understanding Programming Practices in Four Oceanography Groups'
+  conference: id_conference_ecscw_2017
+  officialurl: https://doi.org/10.1007/s10606-017-9285-x
+  localthumb: ecscw2017.png
+  localpdf: ecscw2017.pdf
+
 id_conferencepaper_chi2017_genie:
   pubnum: C.70
   authors:
