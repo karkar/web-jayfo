@@ -185,6 +185,7 @@ id_conferencepaper_chi2016_login:
   conference: id_conference_chi_2016
   pages: 5658-5664
   officialurl: http://dx.doi.org/10.1145/2858036.2858360
+  pmcid: PMC5553980
   localthumb: chi2016-login.png
   localpdf: chi2016-login.pdf
 
