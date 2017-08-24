@@ -18,7 +18,7 @@ Associate Professor<br/>
 Computer Science & Engineering<br/>
 University of Washington
 
-Paul G. Allen Center, Room 666<br/>
+Paul G. Allen Center, Room 632<br/>
 jfogarty [at] cs [dot] washington [dot] edu
 </div>
   </div>
