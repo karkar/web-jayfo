@@ -14,7 +14,7 @@ brandtext: ''
   </div>
   <div class="col-md-6">
 <div markdown="block">
-Associate Professor<br/>
+Professor<br/>
 Computer Science & Engineering<br/>
 University of Washington
 
