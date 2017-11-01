@@ -43,7 +43,7 @@ jfogarty [at] cs [dot] washington [dot] edu
           <div class="panel-body">
             Computer Science &amp; Engineering<br/>
             University of Washington<br/>
-            AC 101, Box 352350<br/>
+            Box 352350<br/>
             Seattle, WA 98195
           </div>
         </div>
