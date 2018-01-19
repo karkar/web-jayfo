@@ -85,4 +85,4 @@ I pursue this work together with an outstanding group of collaborators and amazi
 
 My research has been directly supported by the National Science Foundation and by the Agency for Healthcare Research and Quality.
 
-My group has also been generously supported by FXPAL, Google, Intel, Microsoft, and Nokia.
+My group has also been generously supported by Adobe, FXPAL, Google, Intel, Microsoft, and Nokia.
