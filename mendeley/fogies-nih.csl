@@ -120,6 +120,13 @@
       </else>
     </choose>
   </macro>
+  <macro name="git">
+    <choose>
+      <if variable="GIT">
+        <text variable="GIT" prefix="GitHub: "/>
+      </if>
+    </choose>
+  </macro>
   <macro name="sortkey">
     <group delimiter=" ">
 	  <choose>
@@ -202,6 +209,7 @@
       </group>
       <text macro="access" prefix=" "/>
       <text macro="pmcid" prefix=" "/>
+      <text macro="git" prefix=" "/>
     </layout>
   </bibliography>
 </style>
