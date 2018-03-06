@@ -1,5 +1,20 @@
 ---
 
+id_conferencepaper_dis2018:
+  pubnum: C.73
+  authors:
+    - id_author_schroeder_jessica
+    - id_author_chung_chia-fang
+    - id_author_epstein_daniel
+    - id_author_karkar_ravi
+    - id_author_parsons_adele
+    - id_author_murinova_natalia
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'Examining Self-Tracking by People with Migraine: Goals, Needs, and Opportunities in a Chronic Health Condition'
+  conference: id_conference_dis_2018
+  localthumb: dis2018.png
+
 id_conferencepaper_assets2017:
   pubnum: C.72
   authors:
