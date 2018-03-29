@@ -153,6 +153,11 @@ id_conference_dgo_2010:
   shortname: dg.o 2010
   year: 2010
 
+id_conference_dis_2018:
+  longname: *dis
+  shortname: DIS 2018
+  year: 2018
+
 id_conference_dis_2014:
   longname: *dis
   shortname: DIS 2014

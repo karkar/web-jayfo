@@ -618,6 +618,11 @@ id_author_munson_sean:
     - Sean
     - A.
 
+id_author_murinova_natalia:
+  name:
+    - Murinova
+    - Natalia
+
 id_author_neff_gina:
   name:
     - Neff
@@ -638,6 +643,11 @@ id_author_nguyen_linda:
   name:
     - Nguyen
     - Linda
+
+id_author_parsons_adele:
+  name:
+    - Parsons
+    - Adele
 
 id_author_patel_kayur:
   name:
