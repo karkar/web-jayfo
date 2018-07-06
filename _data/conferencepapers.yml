@@ -25,6 +25,7 @@ id_conferencepaper_assets2017:
     - id_author_wobbrock_jacob
   title: 'Epidemiology as a Framework for Large-Scale Mobile Application Accessibility Assessment'
   conference: id_conference_assets_2017
+  pages: 2-11
   officialurl: https://doi.org/10.1145/3132525.3132547
   localthumb: assets2017.png
   localpdf: assets2017.pdf
