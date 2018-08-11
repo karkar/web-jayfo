@@ -1,5 +1,5 @@
 ---
-layout: base/bar-sidebar-right
+layout: base/bar/bar-sidebar-right
 title: James Fogarty
 brandtext: ''
 ---
@@ -14,11 +14,11 @@ brandtext: ''
   </div>
   <div class="col-md-6">
 <div markdown="block">
-Associate Professor<br/>
+Professor<br/>
 Computer Science & Engineering<br/>
 University of Washington
 
-Paul G. Allen Center, Room 666<br/>
+Paul G. Allen Center, Room 632<br/>
 jfogarty [at] cs [dot] washington [dot] edu
 </div>
   </div>
@@ -43,7 +43,7 @@ jfogarty [at] cs [dot] washington [dot] edu
           <div class="panel-body">
             Computer Science &amp; Engineering<br/>
             University of Washington<br/>
-            AC 101, Box 352350<br/>
+            Box 352350<br/>
             Seattle, WA 98195
           </div>
         </div>
@@ -69,7 +69,7 @@ jfogarty [at] cs [dot] washington [dot] edu
 <div class="sidebar_end"></div>
 <!-- end sidebar -->
 
-I am an Associate Professor of Computer Science & Engineering at the University of Washington. I am also a core member of the DUB Group, our cross-campus initiative advancing Human-Computer Interaction and Design research and education.
+I am a Professor of Computer Science & Engineering at the University of Washington. I am also a core member of the DUB Group, our cross-campus initiative advancing Human-Computer Interaction and Design research and education.
 
 My broad research interests are in Human-Computer Interaction, User Interface Software and Technology, and Ubiquitous Computing. My focus is on developing, deploying, and evaluating new approaches to the human obstacles surrounding widespread everyday adoption of ubiquitous sensing and intelligent computing technologies.
 
@@ -77,8 +77,6 @@ I pursue this work together with an outstanding group of collaborators and amazi
 
 * [Daniel Epstein](http://www.depstein.net/)
 * [Ravi Karkar](http://ravikarkar.com/)
-* [Katerena Kuksenok](https://katerena.github.io)
-* [Greg Nelson](http://www.greglnelson.info/)
 * [Laura Pina](http://homes.cs.washington.edu/~lpina/)
 * [Anne Ross](https://homes.cs.washington.edu/~ansross/)
 * [Jessie Schroeder](https://homes.cs.washington.edu/~jesscs/)
@@ -87,4 +85,4 @@ I pursue this work together with an outstanding group of collaborators and amazi
 
 My research has been directly supported by the National Science Foundation and by the Agency for Healthcare Research and Quality.
 
-My group has also been generously supported by FXPAL, Google, Intel, Microsoft, and Nokia.
+My group has also been generously supported by Adobe, FXPAL, Google, Intel, Microsoft, and Nokia.

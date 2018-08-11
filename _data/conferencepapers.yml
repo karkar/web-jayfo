@@ -1,5 +1,183 @@
 ---
 
+id_conferencepaper_dis2018:
+  pubnum: C.73
+  authors:
+    - id_author_schroeder_jessica
+    - id_author_chung_chia-fang
+    - id_author_epstein_daniel
+    - id_author_karkar_ravi
+    - id_author_parsons_adele
+    - id_author_murinova_natalia
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'Examining Self-Tracking by People with Migraine: Goals, Needs, and Opportunities in a Chronic Health Condition'
+  conference: id_conference_dis_2018
+  localthumb: dis2018.png
+  localpdf: dis2018.pdf
+
+id_conferencepaper_assets2017:
+  pubnum: C.72
+  authors:
+    - id_author_ross_anne
+    - id_author_zhang_xiaoyi
+    - id_author_fogarty_james
+    - id_author_wobbrock_jacob
+  title: 'Epidemiology as a Framework for Large-Scale Mobile Application Accessibility Assessment'
+  conference: id_conference_assets_2017
+  pages: 2-11
+  officialurl: https://doi.org/10.1145/3132525.3132547
+  localthumb: assets2017.png
+  localpdf: assets2017.pdf
+
+id_conferencepaper_ecscw2017:
+  pubnum: C.71
+  authors:
+    - id_author_kuksenok_kateryna
+    - id_author_aragon_cecilia
+    - id_author_fogarty_james
+    - id_author_lee_charlotte
+    - id_author_neff_gina
+  title: 'Deliberate Individual Change Framework for Understanding Programming Practices in Four Oceanography Groups'
+  conference: id_conference_ecscw_2017
+  officialurl: https://doi.org/10.1007/s10606-017-9285-x
+  localthumb: ecscw2017.png
+  localpdf: ecscw2017.pdf
+
+id_conferencepaper_chi2017_genie:
+  pubnum: C.70
+  authors:
+    - id_author_swearngin_amanda
+    - id_author_ko_andrew
+    - id_author_fogarty_james
+  title: 'Genie: Input Retargeting on the Web through Command Reverse Engineering'
+  conference: id_conference_chi_2017
+  pages: 4703-4714
+  officialurl: https://doi.org/10.1145/3025453.3025506
+  localthumb: chi2017-genie.png
+  localpdf: chi2017-genie.pdf
+
+id_conferencepaper_chi2017_grouptouch:
+  pubnum: C.69
+  authors:
+    - id_author_evans_abigail
+    - id_author_davis_katie
+    - id_author_fogarty_james
+    - id_author_wobbrock_jacob
+  title: 'Group Touch: Distinguishing Tabletop Users in Group Settings via Statistical Modeling of Touch Pairs'
+  conference: id_conference_chi_2017
+  pages: 35-47
+  officialurl: https://doi.org/10.1145/3025453.3025793
+  localthumb: chi2017-grouptouch.png
+  localpdf: chi2017-grouptouch.pdf
+
+id_conferencepaper_chi2017_instagram:
+  pubnum: C.68
+  authors:
+    - id_author_chung_chia-fang
+    - id_author_agapie_elena
+    - id_author_schroeder_jessica
+    - id_author_mishra_sonali
+    - id_author_fogarty_james
+    - id_author_munson_sean
+  title: 'When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating'
+  conference: id_conference_chi_2017
+  pages: 1674-1687
+  officialurl: https://doi.org/10.1145/3025453.3025747
+  pmcid: PMC5432132
+  localthumb: chi2017-instagram.png
+  localpdf: chi2017-instagram.pdf
+
+id_conferencepaper_chi2017_interactionproxies:
+  pubnum: C.67
+  authors:
+    - id_author_zhang_xiaoyi
+    - id_author_ross_anne
+    - id_author_caspi_anat
+    - id_author_fogarty_james
+    - id_author_wobbrock_jacob
+  title: 'Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility'
+  conference: id_conference_chi_2017
+  pages: 6024-6037
+  officialurl: https://doi.org/10.1145/3025453.3025846
+  localthumb: chi2017-interactionproxies.png
+  localpdf: chi2017-interactionproxies.pdf
+
+id_conferencepaper_chi2017_menstrualtracking:
+  pubnum: C.66
+  authors:
+    - id_author_epstein_daniel
+    - id_author_lee_nicole
+    - id_author_kang_jennifer
+    - id_author_agapie_elena
+    - id_author_schroeder_jessica
+    - id_author_pina_laura
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+  title: 'Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools'
+  conference: id_conference_chi_2017
+  pages: 6876-6888
+  officialurl: https://doi.org/10.1145/3025453.3025635
+  pmcid: PMC5432133
+  localthumb: chi2017-menstrualtracking.png
+  localpdf: chi2017-menstrualtracking.pdf
+
+id_conferencepaper_chi2017_tummytrials:
+  pubnum: C.65
+  authors:
+    - id_author_karkar_ravi
+    - id_author_schroeder_jessica
+    - id_author_epstein_daniel
+    - id_author_pina_laura
+    - id_author_scofield_jeffrey
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+    - id_author_munson_sean
+    - id_author_vilardaga_roger
+    - id_author_zia_jasmine
+  title: 'TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers'
+  conference: id_conference_chi_2017
+  pages: 6850-6863
+  officialurl: https://doi.org/10.1145/3025453.3025480
+  pmcid: PMC5432136
+  localthumb: chi2017-tummytrials.png
+  localpdf: chi2017-tummytrials.pdf
+
+id_conferencepaper_cscw2017_triggers:
+  pubnum: C.64
+  authors:
+    - id_author_schroeder_jessica
+    - id_author_hoffswell_jane
+    - id_author_chung_chia-fang
+    - id_author_fogarty_james
+    - id_author_munson_sean
+    - id_author_zia_jasmine
+  title: 'Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals'
+  conference: id_conference_cscw_2017
+  pages: 1726-1739
+  officialurl: https://doi.org/10.1145/2998181.2998276
+  pmcid: PMC5432206
+  localthumb: cscw2017-triggers.png
+  localpdf: cscw2017-triggers.pdf
+
+id_conferencepaper_cscw2017_familyinformatics:
+  pubnum: C.63
+  authors:
+    - id_author_pina_laura
+    - id_author_sieng_sang
+    - id_author_ward_teresa
+    - id_author_yip_jason
+    - id_author_munson_sean
+    - id_author_fogarty_james
+    - id_author_kientz_julie
+  title: 'From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring'
+  conference: id_conference_cscw_2017
+  pages: 2300-2315
+  officialurl: https://doi.org/10.1145/2998181.2998362
+  localthumb: cscw2017-familyinformatics.png
+  localpdf: cscw2017-familyinformatics.pdf
+
 id_conferencepaper_ubicomp2016:
   pubnum: C.62
   authors:
@@ -10,6 +188,9 @@ id_conferencepaper_ubicomp2016:
     - id_author_munson_sean
   title: 'Reconsidering the Device in the Drawer: Lapses as a Design Opportunity in Personal Informatics'
   conference: id_conference_ubicomp_2016
+  pages: 829-840
+  officialurl: http://dx.doi.org/10.1145/2971648.2971656
+  pmcid: PMC5432203
   localthumb: ubicomp2016.png
   localpdf: ubicomp2016.pdf
 
@@ -23,6 +204,7 @@ id_conferencepaper_chi2016_login:
   conference: id_conference_chi_2016
   pages: 5658-5664
   officialurl: http://dx.doi.org/10.1145/2858036.2858360
+  pmcid: PMC5553980
   localthumb: chi2016-login.png
   localpdf: chi2016-login.pdf
 
@@ -38,6 +220,7 @@ id_conferencepaper_chi2016_food4thought:
   conference: id_conference_chi_2016
   pages: 5632-5644
   officialurl: http://dx.doi.org/10.1145/2858036.2858044
+  pmcid: PMC5428072
   localthumb: chi2016-food4thought.png
   localpdf: chi2016-food4thought.pdf
 
@@ -54,6 +237,7 @@ id_conferencepaper_chi2016_abandonment:
   conference: id_conference_chi_2016
   pages: 1109-1113
   officialurl: http://dx.doi.org/10.1145/2858036.2858045
+  pmcid: PMC5428074
   localthumb: chi2016-abandonment.png
   localpdf: chi2016-abandonment.pdf
 
@@ -71,6 +255,7 @@ id_conferencepaper_cscw2016:
   conference: id_conference_cscw_2016
   pages: 770-786
   officialurl: http://dx.doi.org/10.1145/2818048.2819926
+  pmcid: PMC5432205
   localthumb: cscw2016.png
   localpdf: cscw2016.pdf
 
@@ -131,6 +316,7 @@ id_conferencepaper_chi2015_barriersandnegativenudges:
   conference: id_conference_chi_2015
   pages: 1159-1162
   officialurl: http://dx.doi.org/10.1145/2702123.2702155
+  pmcid: PMC4755274
   localthumb: chi2015-barriersandnegativenudges.png
   localpdf: chi2015-barriersandnegativenudges.pdf
 

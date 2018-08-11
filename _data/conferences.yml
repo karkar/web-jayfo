@@ -4,11 +4,13 @@ aliases_longname:
   - longname: &aaai_senior        Proceedings of the AAAI Conference on Artificial Intelligence, Senior Papers Track
   - longname: &avi                Proceedings of the International Conference on Advanced Visual Interfaces
   - longname: &aied               Proceedings of the International Conference on Artificial Intelligence in Education
+  - longname: &assets             Proceedings of the ACM Conference on Computers and Accessibility
   - longname: &chi                Proceedings of the ACM Conference on Human Factors in Computing Systems
   - longname: &cikm               Proceedings of the ACM Conference on Information and Knowledge Management
   - longname: &cscw               Proceedings of the ACM Conference on Computer Supported Cooperative Work
   - longname: &dis                Proceedings of the ACM Conference on Designing Interactive Systems
   - longname: &dgo                Proceedings of the Conference on Digital Government Research
+  - longname: &ecscw              Proceedings of the European Conference on Computer Supported Cooperative Work
   - longname: &fdg                Proceedings of the International Conference on the Foundations of Digital Games
   - longname: &gi                 Proceedings of Graphics Interface
   - longname: &icmi               Proceedings of the International Conference on Multimodal Interfaces
@@ -41,10 +43,20 @@ id_conference_aied_2001:
   shortname: AIED 2001
   year: 2001
 
+id_conference_assets_2017:
+  longname: *assets
+  shortname: ASSETS 2017
+  year: 2017
+
 id_conference_avi_2014:
   longname: *avi
   shortname: AVI 2014
   year: 2014
+
+id_conference_chi_2017:
+  longname: *chi
+  shortname: CHI 2017
+  year: 2017
 
 id_conference_chi_2016:
   longname: *chi
@@ -116,6 +128,11 @@ id_conference_cikm_2009:
   shortname: CIKM 2009
   year: 2009
 
+id_conference_cscw_2017:
+  long:name: *cscw
+  shortname: CSCW 2017
+  year: 2017 
+
 id_conference_cscw_2016:
   longname: *cscw
   shortname: CSCW 2016
@@ -136,10 +153,20 @@ id_conference_dgo_2010:
   shortname: dg.o 2010
   year: 2010
 
+id_conference_dis_2018:
+  longname: *dis
+  shortname: DIS 2018
+  year: 2018
+
 id_conference_dis_2014:
   longname: *dis
   shortname: DIS 2014
   year: 2014
+
+id_conference_ecscw_2017:
+  long:name: *ecscw
+  shortname: ECSCW 2017
+  year: 2017
 
 id_conference_fdg_2011:
   longname: *fdg
