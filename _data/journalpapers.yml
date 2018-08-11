@@ -1,5 +1,25 @@
 ---
 
+id_journalpaper_imwut2018:
+  pubnum: J.10
+  authors:
+    - id_author_karkar_ravi
+    - id_author_kocielnik_rafal
+    - id_author_zhang_xiaoyi
+    - id_author_zia_jasmine
+    - id_author_ioannou_george
+    - id_author_munson_sean
+    - id_author_fogarty_james
+  title: 'Beacon: Designing a Portable Device for Self-Administering a Measure of Critical Flicker Frequency'
+  journal: id_journal_imwut
+  year: 2018
+  volume: 2
+  issue: 3
+  pages: 1-27 # (article number 117)
+  officialurl: https://doi.org/10.1145/3264927
+  localthumb: imwut2018.jpg
+  localpdf: imwut2018.pdf
+
 id_journalpaper_pervasivecomputing2017:
   pubnum: J.09
   authors:

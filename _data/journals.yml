@@ -26,3 +26,7 @@ id_journal_tochi:
 id_journal_jamia:
   longname: Journal of the American Medical Informatics Association
   shortname: JAMIA
+
+id_journal_imwut:
+  longname: 'PACM on Interactive Mobile, Wearable and Ubiquitous Technologies'
+  shortname: IMWUT
